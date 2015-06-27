@@ -6,7 +6,7 @@
 \documentclass[12pt]{article} % use larger type; default would be 10pt
 
 % places something at specfic coordinates on a page
-\usepackage[pscoord]{eso-pic}% The zero point of the coordinate systemis the lower left corner of the page (the default).
+%\usepackage[pscoord]{eso-pic}% The zero point of the coordinate systemis the lower left corner of the page (the default).
 
 % usual packages loading:
 \usepackage{fontspec}
@@ -21,6 +21,9 @@
 \usepackage{lettrine}
 \setlength{\parindent}{-0.25in}
 
+% dual language parallel text thing
+\usepackage{eledmac}
+\usepackage{eledpar}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -32,16 +35,6 @@
 \rfoot{}
 \renewcommand{\headrulewidth}{0pt}
 
- 
-%eso-pic package stuff for placing something at specific coordinates on the page
-\newcommand{\placetextbox}[3]{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
-  \setbox0=\hbox{#3}% Put <stuff> in a box
-  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
-    \put(\LenToUnit{#1\paperwidth},\LenToUnit{#2\paperheight}){\vtop{{\null}\makebox[0pt][c]{#3}}}%
-  }%
-}%
- 
- 
  
 %% No space for initial letter
 \def\noinitial{%
@@ -256,19 +249,34 @@ ORNATUM SIGNIS RHYTHMICIS
 \thispagestyle{empty}
 \mbox{}
 \newpage
-\chead{\color{benred8}\textsc{Dominica}}
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+\chead{\color{benred8}\textsc{Dominica \textemdash\ Sunday}}
 %\cfoot{\thepage}
 \cfoot{\textcolor{benblue1}{\thepage}}
 \thispagestyle{plain}
 %\pagenumbering{roman}  
 \pagenumbering{arabic}  
-\setcounter{page}{3}
+\setcounter{page}{4}
 
-% The title:
+
+%\pagestyle{plain}
+
+% DOMINICA AD VESPERAS
+% START PARALLEL TEXTS
+\begin{pages}
+\begin{Leftside}
+\firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
+
 \begin{center}\begin{Huge}\textsc{\textcolor{benred8}{Dominica ad Vesperas}}\end{Huge}\end{center}
-%\section*{Dominica ad Vesperas}
+
+\pend\pstart
 
 \begin{center}Pater no\libertineGlyph{s_t}er. Ave Mar\'{i}a.\end{center}
+
+\pend\pstart
 
 % Here we set the space around the initial.
 % Please report to http://home.gna.org/gregorio/gregoriotex/details for more details and options
@@ -281,24 +289,19 @@ ORNATUM SIGNIS RHYTHMICIS
 {\fontsize{43}{43}\selectfont #1}%
 }
 
-% We set red lines here, comment it if you want black ones.
-%\redlines
-
-% We set VII above the initial.
+% We set V/. above the initial.
 \gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{\Vbar}}}}{\textcolor{benred8}{\small \textsc{\textbf{\Vbar}}}}
-
-% We type a text in the top right corner of the score:
-%\commentary{{\small \emph{Cf. Is. 30, 19 . 30 ; Ps. 79}}}
 
 % and finally we include the score. The file must be in the same directory as this one.
 \includescore{DeusInAdjutorium.tex}
 
+\pend\pstart
 
 %%%%%%%%%%%%%%%%
 % eso pic here ???
 % the staff of the first line of the Dixit Dominus extends too far into the right margin
 % this thing should cover that up
-\placetextbox{0.95}{0.55}{\includegraphics[width=2.963cm]{blank.PNG}}%
+%\placetextbox{0.95}{0.55}{\includegraphics[width=2.963cm]{blank.PNG}}%
 %%%%%%%%%%%%%%%%
 
 \begin{rubric}
@@ -306,35 +309,43 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 
 \end{rubric}
 
+\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{}}}}{\textcolor{benred8}{\small \textsc{\textbf{}}}}
+
 {\noinitial
 \includescore{LausTibi.tex}
 }
+
+\pend\pstart
 
 %\vspace{2 mm}
 
 \begin{center}\begin{large}\textbf{\textsc{\textcolor{benred8}{1 Antiphona. VII c 2}}}\end{large}\end{center}
 
-\vspace*{-1.75 cm}
+\pend\pstart
 
 % THE BIG INITIAL INSIDE DomAnt1-01.tex
-%\raisebox{3.05cm}{
-%\greinitial{D\llap{\fontspec{LinLibertine_DRahBen}\color{benred8}D}\llap{\fontspec{LinLibertine_DRahBen2}\color{benblue1}D}\llap{\fontspec{LinLibertine_DRahBen3}\color{benyellow1}D}}%
-%
-%}
+%\raisebox{1.60cm}{\greinitial{D}}%
+
+%\vspace*{-2.50 cm}
 
 \def\grebiginitialformat#1{%
 {\fontsize{170}{170}\selectfont #1}%
 }
+
 {\gresetbiginitial
-\includescore{DomAnt1-01.tex}
+\includescore{DomAnt1-01_plain_d.tex}
 
 }
+
+\pend\pstart
 
 {
 \centering
 \textcolor{benred8}{Psalmus 109.}
 
 }
+
+\pend\pstart
 
 \begin{psalmtext}
 Donec ponam ini\textbf{mí}cos \textbf{tu}os, \gresixstar\ scabéllum \textbf{pe}dum tu\textbf{ó}rum.
@@ -357,15 +368,124 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 
 \end{psalmtext}
 
+\pend\pstart
+
 {\noinitial
 \includescore{DomAnt1-02.tex}
 }
 
 \vspace{2 mm}
 
+\pend\endnumbering
+\end{Leftside}
+\begin{Rightside}
+
+\firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
+
+% SUNDAY AT VESPERS
+
+\begin{center}\begin{Huge}\textsc{\textcolor{benred8}{Sunday at Vespers}}\end{Huge}\end{center}
+
+\pend\pstart
+
+\begin{center}Our Father. Hail Mary.\end{center}
+
+\pend\pstart
+
+\setspaceafterinitial{2.2mm plus 0em minus 0em}
+\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
+
+\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{\Vbar}}}}{\textcolor{benred8}{\small \textsc{\textbf{\Vbar}}}}
+
+\includescore{EnglishVersion/DeusInAdjutorium.tex}
+
+\pend\pstart
+
+\begin{rubric}
+The following is sung from Septuagesima Sunday until Easter in place of \emph{\textcolor{black}{Alleluia}} :
+
+\end{rubric}
+
+\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{}}}}{\textcolor{benred8}{\small \textsc{\textbf{}}}}
+
+{\noinitial
+\includescore{EnglishVersion/LausTibi.tex}
+
+}
+
+\pend\pstart
+
+\begin{center}\begin{large}\textbf{\textsc{\textcolor{benred8}{1 Antiphon. VII c 2}}}\end{large}\end{center}
+
+\pend\pstart
+
+%\vspace*{-2.50 cm}
+
+\def\grebiginitialformat#1{%
+{\fontsize{170}{170}\selectfont #1}%
+}
+
+{\gresetbiginitial
+\includescore{EnglishVersion/DomAnt1-01_plain_d.tex}
+
+}
+
+
+\pend\pstart
+
+{
+\centering
+\textcolor{benred8}{Psalm 109.}
+
+}
+
+\pend\pstart
+
+\begin{psalmtext}
+%The Lord \textbf{said} to \textbf{my} Lord: \gresixstar\ Sit thou \textbf{at} my \textbf{right} hand:
+
+%Until I \textbf{make} thy \textbf{e}nemies \gresixstar\ thy \textbf{foot}stool.
+
+The Lord will send forth the sceptre of thy power \textbf{out} of \textbf{Si}on: \gresixstar\ rule thou in the \textbf{midst} of thy \textbf{e}nemies.
+
+With thee is the principality in the day of thy strength: in the \textbf{bright}ness \textbf{of} the saints: \gresixstar\ from the womb before the day star \textbf{I} be\textbf{got} thee.
+
+The Lord hath sworn, and he \textbf{will} not \textbf{re}pent: \gresixstar\ Thou art a priest for ever according to the order \textbf{of} Mel\textbf{chi}sedech.
+
+The Lord \textbf{at} thy \textbf{right} hand \gresixstar\ hath broken kings in the \textbf{day} of \textbf{his} wrath.
+
+He shall judge among nations, \textbf{he} shall fill \textbf{ru}ins: \gresixstar\ he shall crush the heads in the \textbf{land} of \textbf{ma}ny.
+
+He shall drink of the \textbf{tor}rent \textbf{in} the way: \gresixstar\ therefore shall he \textbf{lift} up \textbf{the} head.
+
+Glory be to the \textbf{Fa}ther, and \textbf{to} the Son, \gresixstar\ and to the \textbf{Ho}ly \textbf{Spi}rit.
+
+As it was in the beginning, is now, and \textbf{e}ver \textbf{shall} be, \gresixstar\ world with\textbf{out} end. \textbf{A}men.
+
+\end{psalmtext}
+
+\pend\pstart
+
+{\noinitial
+\includescore{EnglishVersion/DomAnt1-02.tex}
+}
+
+\pend\endnumbering
+\end{Rightside}
+\end{pages}
+\Pages
+
 %% DOMINICA 2 ANT.
 
 \subsection*{}
+
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
 
 \setspaceafterinitial{6mm plus 0em minus 0em}
 \setspacebeforeinitial{6mm plus 0em minus 0em}
@@ -418,6 +538,50 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 }
 
 \vspace{2 mm}
+
+\setspaceafterinitial{6mm plus 0em minus 0em}
+\setspacebeforeinitial{6mm plus 0em minus 0em}
+
+\gresetfirstlineaboveinitial{\small \textsc{ \textbf{\textcolor{benred8}{2 \Abar\ IV g}}}}{\small \textsc{ \textbf{\textcolor{benred8}{2 \Abar\ IV g}}}}
+\includescore{EnglishVersion/DomAnt2-01.tex}
+
+{
+\centering
+\textcolor{benred8}{Psalmus 110.}
+
+}
+
+\begin{psalmtext}
+I will praise thee, O Lord, \emph{with my} \textbf{whole} heart ; \gresixstar\ in the council of the just, and in the congre\textbf{ga}tion.
+
+Great are the \emph{works of} \textbf{the} Lord : \gresixstar\ sought out according to all \textbf{his} wills.
+
+His work is praise \emph{and mag}\textbf{ni}ficence : \gresixstar\ and his justice continueth for ever and \textbf{e}ver.
+
+He hath made a remembrance of his wonderful works, \gredagger\ being a merci\emph{ful and} \textbf{gra}cious Lord~:~\gresixstar\ he hath given food to them that \textbf{fear} him.
+
+He will be mindful for ever \emph{of his} \textbf{co}venant : \gresixstar\ he will shew forth to his people the power of \textbf{his} works.
+
+That he may give them the inheritance \emph{of the} \textbf{Gen}tiles : \gresixstar\ the works of his hands are truth and \textbf{judg}ment.
+
+All his commandments are faithful : \gredagger\ confirmed for e\emph{ver and} \textbf{e}ver, \gresixstar\ made in truth and \textbf{e}quity.
+
+He hath sent redemption \emph{to his} \textbf{peo}ple : \gresixstar\ he hath commanded his covenant for \textbf{e}ver.
+
+\textcolor{benred8}{\emph{A sign of reverence is made :}} Holy and terri\emph{ble is} \textbf{his} name : \gresixstar\ the fear of the Lord is the beginning of \textbf{wis}dom.
+
+A good understanding to \emph{all that} \textbf{do} it : \gresixstar\ his praise continueth for ever and \textbf{e}ver.
+
+Glory be to the Fa\emph{ther, and} \textbf{to} the Son, \gresixstar\ and to the Holy \textbf{Spi}rit.
+
+As it was in the beginning, is now, and \emph{ever} \textbf{shall} be, \gresixstar\ world without end. \textbf{A}men.
+
+\end{psalmtext}
+
+{\noinitial
+\includescore{EnglishVersion/DomAnt2-02.tex}
+}
+
 
 %% DOMINICA 3 ANT.
 
@@ -4361,30 +4525,6 @@ Amen.
 \vspace*{\fill}
 
 \end{document}
-
-
-
-%\Vbar . \textcolor{benred1}{\Vbar .} \textcolor{benred8}{\Vbar .} \textcolor{benred12}{\Vbar .} \textcolor{red}{\Vbar .}
-%\Rbar . \textcolor{benred1}{\Rbar .} \textcolor{benred8}{\Vbar .} \textcolor{benred12}{\Vbar .} \textcolor{red}{\Rbar .}
-%\Abar . \textcolor{benred1}{\Abar .} \textcolor{benred8}{\Vbar .} \textcolor{benred12}{\Vbar .} \textcolor{red}{\Abar .}
-%
-%\begin{Large}
-%
-%\textcolor{red}{Red : \Vbar .} \textcolor{benred1}{ONE \Vbar .} \textcolor{benred2}{TWO \Vbar .} \textcolor{benred3}{THREE \Vbar .} \textcolor{benred4}{FOUR \Vbar .} \textcolor{benred5}{FIVE \Vbar .} \textcolor{benred6}{SIX \Vbar .} \textcolor{benred7}{SEVEN \Vbar .} \textcolor{benred8}{EIGHT \Vbar .} \textcolor{benred9}{NINE \Vbar .} \textcolor{benred10}{TEN \Vbar .} \textcolor{benred11}{ELEVEN \Vbar .} \textcolor{benred12}{TWELVE \Vbar .}
-%
-%
-%
-%\end{Large}
-%
-%\textcolor{red}{Red : \Vbar .} \textcolor{benred1}{ONE \Vbar .} \textcolor{benred2}{TWO \Vbar .} \textcolor{benred3}{THREE \Vbar .} \textcolor{benred4}{FOUR \Vbar .} \textcolor{benred5}{FIVE \Vbar .} \textcolor{benred6}{SIX \Vbar .} \textcolor{benred7}{SEVEN \Vbar .} \textcolor{benred8}{EIGHT \Vbar .} \textcolor{benred9}{NINE \Vbar .} \textcolor{benred10}{TEN \Vbar .} \textcolor{benred11}{ELEVEN \Vbar .} \textcolor{benred12}{TWELVE \Vbar .}
-%
-%\textcolor{benred8}{EIGHT \Vbar .}
-%
-%\textcolor{benred9}{NINE \Vbar .}
-%
-%\textcolor{benred11}{ELEVEN \Vbar .}
-%
-%\textcolor{benred12}{TWELVE \Vbar .}
 
 
 
