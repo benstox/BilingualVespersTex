@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.76.0-2013061708 (rev 4627)  (format=lualatex 2014.9.13)  27 JUN 2015 19:46
+This is LuaTeX, Version beta-0.76.0-2013061708 (rev 4627)  (format=lualatex 2014.9.13)  27 JUN 2015 20:02
  restricted \write18 enabled.
 **vespers.tex
 (./vespers.tex
@@ -852,8 +852,8 @@ s/otf/linlibertine-r.luc)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature tnum for script latn with
  language dflt
 luaotfload: font no 22 (LinLibertineO) defines feature onum for script latn with
@@ -991,8 +991,8 @@ k to file:(load luc: /home/ben/.texlive2013/texmf-var/luatex-cache/generic/fonts
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_R.otf" unsuccessful, falling bac
 k to file:
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
 luaotfload: font no 27 (LinBiolinumO) defines feature tnum for script latn with 
 language dflt
 luaotfload: font no 27 (LinBiolinumO) defines feature onum for script latn with 
@@ -1125,8 +1125,8 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature tnum for script latn with
  language dflt
 luaotfload: font no 22 (LinLibertineO) defines feature onum for script latn with
@@ -1147,8 +1147,8 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature tnum for script latn with
  language dflt
 luaotfload: font no 22 (LinLibertineO) defines feature onum for script latn with
@@ -1293,8 +1293,8 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature tnum for script latn with
  language dflt
 luaotfload: font no 22 (LinLibertineO) defines feature onum for script latn with
@@ -1315,8 +1315,8 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature tnum for script latn with
  language dflt
 luaotfload: font no 22 (LinLibertineO) defines feature lnum for script latn with
@@ -1446,9 +1446,9 @@ ts/otf/linlibertine-dr.luc)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_DR.otf" unsuccessful, falling b
 ack to file:
-luaotfload: font no 33 (LinLibertineDisplayO) defines feature locl for script la
+luaotfload: font no 33 (LinLibertineDisplayO) defines feature nalt for script la
 tn
-luaotfload: font no 33 (LinLibertineDisplayO) defines feature locl for script la
+luaotfload: font no 33 (LinLibertineDisplayO) defines feature nalt for script la
 tn
 luaotfload: font no 33 (LinLibertineDisplayO) defines feature tnum for script la
 tn with language dflt
@@ -1566,8 +1566,8 @@ k to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_R.otf" unsuccessful, falling bac
 k to file:
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
 luaotfload: font no 27 (LinBiolinumO) defines feature tnum for script latn with 
 language dflt
 luaotfload: font no 27 (LinBiolinumO) defines feature onum for script latn with 
@@ -1588,8 +1588,8 @@ k to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_R.otf" unsuccessful, falling bac
 k to file:
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
 luaotfload: font no 27 (LinBiolinumO) defines feature tnum for script latn with 
 language dflt
 luaotfload: font no 27 (LinBiolinumO) defines feature onum for script latn with 
@@ -1610,8 +1610,8 @@ k to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_R.otf" unsuccessful, falling bac
 k to file:
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
 luaotfload: font no 27 (LinBiolinumO) defines feature tnum for script latn with 
 language dflt
 luaotfload | load : auto-selecting default features for script: dflt
@@ -1723,8 +1723,8 @@ s/otf/linlibertine-m.luc)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_M.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 34 (LinLibertineMO) defines feature ccmp for script latn
-luaotfload: font no 34 (LinLibertineMO) defines feature ccmp for script latn
+luaotfload: font no 34 (LinLibertineMO) defines feature aalt for script latn
+luaotfload: font no 34 (LinLibertineMO) defines feature aalt for script latn
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_M.otf" unsuccessful, falling ba
 ck to file:
@@ -1779,8 +1779,8 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_M.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 34 (LinLibertineMO) defines feature ccmp for script latn
-luaotfload: font no 34 (LinLibertineMO) defines feature ccmp for script latn
+luaotfload: font no 34 (LinLibertineMO) defines feature aalt for script latn
+luaotfload: font no 34 (LinLibertineMO) defines feature aalt for script latn
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1797,8 +1797,8 @@ k to file:(load luc: /home/ben/.texlive2013/texmf-var/luatex-cache/generic/fonts
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_K.otf" unsuccessful, falling bac
 k to file:
-luaotfload: font no 38 (LinBiolinumOKb) defines feature sups for script latn
-luaotfload: font no 38 (LinBiolinumOKb) defines feature sups for script latn
+luaotfload: font no 38 (LinBiolinumOKb) defines feature liga for script latn
+luaotfload: font no 38 (LinBiolinumOKb) defines feature liga for script latn
 \g_fontspec_family_LinBiolinum_K_int=\count339
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_K.otf" unsuccessful, falling bac
@@ -1821,8 +1821,8 @@ s/otf/linlibertine-i.luc)
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_I.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 39 (LinLibertineIO) defines feature ccmp for script latn
-luaotfload: font no 39 (LinLibertineIO) defines feature ccmp for script latn
+luaotfload: font no 39 (LinLibertineIO) defines feature liga for script latn
+luaotfload: font no 39 (LinLibertineIO) defines feature liga for script latn
 \g_fontspec_family_LinLibertine_I_int=\count340
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_I.otf" unsuccessful, falling ba
@@ -1846,8 +1846,8 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature tnum for script latn with
  language dflt
 luaotfload: font no 22 (LinLibertineO) defines feature onum for script latn with
@@ -1960,8 +1960,8 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file:
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
-luaotfload: font no 22 (LinLibertineO) defines feature locl for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
+luaotfload: font no 22 (LinLibertineO) defines feature nalt for script latn
 luaotfload: font no 22 (LinLibertineO) defines feature pnum for script latn with
  language dflt
 luaotfload: font no 22 (LinLibertineO) defines feature onum for script latn with
@@ -2074,8 +2074,8 @@ k to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_R.otf" unsuccessful, falling bac
 k to file:
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
 luaotfload: font no 27 (LinBiolinumO) defines feature tnum for script latn with 
 language dflt
 luaotfload: font no 27 (LinBiolinumO) defines feature onum for script latn with 
@@ -2195,8 +2195,8 @@ k to file:
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : path lookup of "LinBiolinum_R.otf" unsuccessful, falling bac
 k to file:
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
-luaotfload: font no 27 (LinBiolinumO) defines feature locl for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
+luaotfload: font no 27 (LinBiolinumO) defines feature nalt for script latn
 luaotfload: font no 27 (LinBiolinumO) defines feature pnum for script latn with 
 language dflt
 luaotfload: font no 27 (LinBiolinumO) defines feature onum for script latn with 
@@ -18155,7 +18155,7 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : path lookup of "LinLibertine_RB.otf" unsuccessful, falling b
 ack to file:
-(./DeusInAdjutorium.tex
+(./LatinVersion/DeusInAdjutorium.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18175,7 +18175,7 @@ from 'hyphenate')
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : path lookup of "LinLibertine_RI.otf" unsuccessful, falling b
-ack to file: (./LausTibi.tex
+ack to file: (./LatinVersion/LausTibi.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18191,7 +18191,7 @@ ack to file:
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : path lookup of "LinLibertine_RB.otf" unsuccessful, falling b
-ack to file: (./DomAnt1-01_plain_d.tex
+ack to file: (./LatinVersion/DomAnt1-01_plain_d.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18211,7 +18211,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--125
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomAnt1-02.tex
+from 'hyphenate') (./LatinVersion/DomAnt1-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18297,11 +18297,6 @@ Overfull \hbox (249.13373pt too wide) detected at line 480
  []
 
 
-Underfull \hbox (badness 10000) detected at line 480
-|| 
- []
-
-
 Overfull \hbox (249.13373pt too wide) detected at line 480
 [] [][]
  []
@@ -18339,8 +18334,33 @@ Overfull \hbox (249.13373pt too wide) detected at line 480
  []
 
 
-Underfull \hbox (badness 10000) detected at line 480
-|| 
+Overfull \hbox (249.13373pt too wide) detected at line 480
+[] [][]
+ []
+
+
+Overfull \hbox (249.13373pt too wide) detected at line 480
+[] [][]
+ []
+
+
+Overfull \hbox (249.13373pt too wide) detected at line 480
+[] [][]
+ []
+
+
+Overfull \hbox (249.13373pt too wide) detected at line 480
+[] [][]
+ []
+
+
+Overfull \hbox (249.13373pt too wide) detected at line 480
+[] [][]
+ []
+
+
+Overfull \hbox (249.13373pt too wide) detected at line 480
+[] [][]
  []
 
 
@@ -18505,28 +18525,7 @@ luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
 ck to file: [5
 
 ]
-Overfull \hbox (249.13373pt too wide) detected at line 480
-[] [][]
- []
-
-
-Overfull \hbox (249.13373pt too wide) detected at line 480
-[] [][]
- []
-
-
-Overfull \hbox (249.13373pt too wide) detected at line 480
-[] [][]
- []
-
-
-Overfull \hbox (249.13373pt too wide) detected at line 480
-[] [][]
- []
-
-
-Overfull \hbox (249.13373pt too wide) detected at line 480
-[] [][]
+Overfull \vbox (30.79114pt too high) detected at line 480
  []
 
 
@@ -18540,12 +18539,33 @@ Underfull \hbox (badness 10000) detected at line 480
  []
 
 
-Overfull \vbox (30.79114pt too high) detected at line 480
+Underfull \hbox (badness 10000) detected at line 480
+|| 
  []
 
 
-Overfull \hbox (249.13373pt too wide) detected at line 480
-[] [][]
+Underfull \hbox (badness 10000) detected at line 480
+|| 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 480
+|| 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 480
+|| 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 480
+|| 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 480
+|| 
  []
 
 
@@ -18916,7 +18936,7 @@ Underfull \hbox (badness 10000) detected at line 480
 
 [7
 
-] (./DomAnt2-01.tex
+] (./LatinVersion/DomAnt2-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18924,7 +18944,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomFL2.tex
+from 'hyphenate') (./LatinVersion/DomFL2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18936,7 +18956,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--164
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomAnt2-02.tex
+from 'hyphenate') (./LatinVersion/DomAnt2-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18970,7 +18990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--87
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomAnt3-01.tex
+from 'hyphenate') (./LatinVersion/DomAnt3-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -18978,23 +18998,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomFL3.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomAnt3-02.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomAnt4-01.tex
+from 'hyphenate') (./LatinVersion/DomFL3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19003,7 +19007,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./DomFL4.tex
+(./LatinVersion/DomAnt3-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19011,23 +19015,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [9] (./DomAnt4-02.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomAnt5-01.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomFL5.tex
+from 'hyphenate') (./LatinVersion/DomAnt4-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19036,7 +19024,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-[10] (./DomAnt5-02.tex
+(./LatinVersion/DomFL4.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19044,7 +19032,41 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CapitulumBenedictus.tex
+from 'hyphenate') [9] (./LatinVersion/DomAnt4-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/DomAnt5-01.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/DomFL5.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') [10]
+(./LatinVersion/DomAnt5-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/CapitulumBenedictus.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19056,7 +19078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--255
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomHym-Hieme.tex
+from 'hyphenate') (./LatinVersion/DomHym-Hieme.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19069,7 +19091,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--759
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DirigaturDomine.tex
+from 'hyphenate') (./LatinVersion/DirigaturDomine.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19077,7 +19099,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomHym-Aestate.tex
+from 'hyphenate') (./LatinVersion/DomHym-Aestate.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19090,7 +19112,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--764
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomHym-AdLib1.tex
+from 'hyphenate') (./LatinVersion/DomHym-AdLib1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19098,7 +19120,7 @@ at position 1 in 'hyphenate' [13]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomHym-AdLib2.tex
+from 'hyphenate') (./LatinVersion/DomHym-AdLib2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19119,7 +19141,7 @@ ck to file:
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
-ck to file: (./DomineExaudi-short-01.tex
+ck to file: (./LatinVersion/DomineExaudi-short-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19131,7 +19153,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--99
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomineExaudi-short-01.tex
+from 'hyphenate')
+
+LaTeX Warning: Reference `sec:TonusOrationis' on page 15 undefined on input line
+ 919.
+
+
+LaTeX Warning: Reference `sec:Commem' on page 15 undefined on input line 919.
+
+(./LatinVersion/DomineExaudi-short-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19143,15 +19173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--99
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [15] (./DomBenedicamus.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomBenedicamusAdvLent.tex
+from 'hyphenate') [15] (./LatinVersion/DomBenedicamus.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19160,7 +19182,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./FideliumAnimae.tex
+(./LatinVersion/DomBenedicamusAdvLent.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19168,7 +19190,16 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [16] (./F2Ant1-01.tex
+from 'hyphenate') (./LatinVersion/FideliumAnimae.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+[16] (./LatinVersion/F2Ant1-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19181,9 +19212,9 @@ luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/ben/.texlive2013/texmf-var/luatex-cache/generic/fonts/otf/linlibertine-drah
 ben.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 \g_fontspec_family_LinLibertine_DRahBen_int=\count5557
 luaotfload | load : auto-selecting default features for script: dflt
@@ -19228,9 +19259,9 @@ luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 home/ben/.texlive2013/texmf-var/luatex-cache/generic/fonts/otf/linlibertine-drah
 ben4.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 \g_fontspec_family_LinLibertine_DRahBen4_int=\count5558
 luaotfload | load : auto-selecting default features for script: dflt
@@ -19273,9 +19304,9 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19287,9 +19318,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19302,7 +19333,8 @@ n
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2FL1.tex
+from 'hyphenate')
+(./LatinVersion/F2FL1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19310,7 +19342,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2Ant1-02.tex
+from 'hyphenate') (./LatinVersion/F2Ant1-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19318,7 +19350,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2FL2.tex
+from 'hyphenate')
+(./LatinVersion/F2FL2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19330,7 +19363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--164
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [17] (./F2Ant2-02.tex
+from 'hyphenate') [17] (./LatinVersion/F2Ant2-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19338,23 +19371,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2FL3.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2Ant3-02.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2Ant4-01.tex
+from 'hyphenate') (./LatinVersion/F2FL3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19363,7 +19380,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./F2FL4.tex
+(./LatinVersion/F2Ant3-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19371,7 +19388,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [18] (./F2Ant4-02.tex
+from 'hyphenate') (./LatinVersion/F2Ant4-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19379,7 +19396,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2Ant5-01.tex
+from 'hyphenate')
+(./LatinVersion/F2FL4.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19387,7 +19405,24 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2FL5.tex
+from 'hyphenate') [18] (./LatinVersion/F2Ant4-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/F2Ant5-01.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/F2FL5.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19399,7 +19434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--106
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2Ant5-02.tex
+from 'hyphenate') (./LatinVersion/F2Ant5-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19407,7 +19442,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2Hym-Hieme.tex
+from 'hyphenate') (./LatinVersion/F2Hym-Hieme.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19420,7 +19455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--767
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2Hym-Aestate.tex
+from 'hyphenate') (./LatinVersion/F2Hym-Aestate.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19428,7 +19463,7 @@ at position 1 in 'hyphenate' [20]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F2MagAnt-01.tex
+from 'hyphenate') (./LatinVersion/F2MagAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19449,7 +19484,7 @@ ene\EU2/LinLibertine(0)/m/it/12 rati\EU2/LinLibertine(0)/bx/n/12 ó\EU2/LinLibe
 rtine(0)/m/n/12 nes. 
  []
 
-(./F2MagAnt-02.tex
+(./LatinVersion/F2MagAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19457,7 +19492,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [21] (./Kyrie.tex
+from 'hyphenate') [21] (./LatinVersion/Kyrie.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19465,7 +19500,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./PaterNoster.tex
+from 'hyphenate')
+(./LatinVersion/PaterNoster.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19473,7 +19509,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./EgoDixiPreces.tex
+from 'hyphenate') (./LatinVersion/EgoDixiPreces.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19481,7 +19517,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [22] (./Miserere.tex
+from 'hyphenate') [22]
+(./LatinVersion/Miserere.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19493,7 +19530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--86
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomineExaudi2.tex
+from 'hyphenate') (./LatinVersion/DomineExaudi2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19501,7 +19538,8 @@ at position 1 in 'hyphenate' [23]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./FerBenedicamus_annum.tex
+from 'hyphenate')
+(./LatinVersion/FerBenedicamus_annum.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19510,7 +19548,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./FerBenedicamus_penitential.tex
+(./LatinVersion/FerBenedicamus_penitential.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19518,16 +19556,17 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [24] (./F3Ant1-01.tex
+from 'hyphenate') [24]
+(./LatinVersion/F3Ant1-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
 at position 1 in 'hyphenate'
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19539,9 +19578,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19553,9 +19592,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19567,9 +19606,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19582,7 +19621,7 @@ n
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3FL1.tex
+from 'hyphenate') (./LatinVersion/F3FL1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19594,7 +19633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--100
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3Ant1-02.tex
+from 'hyphenate') (./LatinVersion/F3Ant1-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19602,7 +19641,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3Ant2-01.tex
+from 'hyphenate') (./LatinVersion/F3Ant2-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19610,7 +19649,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3FL2.tex
+from 'hyphenate')
+(./LatinVersion/F3FL2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19622,7 +19662,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--84
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [25] (./F3Ant2-02.tex
+from 'hyphenate') [25] (./LatinVersion/F3Ant2-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19630,7 +19670,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3Ant3-01.tex
+from 'hyphenate') (./LatinVersion/F3Ant3-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19638,7 +19678,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3FL3.tex
+from 'hyphenate')
+(./LatinVersion/F3FL3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19656,7 +19697,7 @@ ne(0)/m/it/12 tole\EU2/LinLibertine(0)/bx/n/12 rá\EU2/LinLibertine(0)/m/n/12 b
 ilem. 
  []
 
-(./F3Ant3-02.tex
+(./LatinVersion/F3Ant3-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19664,7 +19705,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3Ant4-01.tex
+from 'hyphenate') (./LatinVersion/F3Ant4-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19672,7 +19713,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3FL4.tex
+from 'hyphenate')
+(./LatinVersion/F3FL4.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19684,7 +19726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--163
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [26] (./F3Ant4-02.tex
+from 'hyphenate') [26] (./LatinVersion/F3Ant4-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19692,23 +19734,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3Ant5-01.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3FL5.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3Ant5-02.tex
+from 'hyphenate') (./LatinVersion/F3Ant5-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19717,7 +19743,24 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./F3Hym-Hieme.tex
+(./LatinVersion/F3FL5.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/F3Ant5-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/F3Hym-Hieme.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19725,15 +19768,16 @@ at position 1 in 'hyphenate' [27]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3Hym-Aestate.tex
+from 'hyphenate') (./LatinVersion/F3Hym-Aestate.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate' [28]
+at position 1 in 'hyphenate'
+[28]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F3MagAnt-01.tex
+from 'hyphenate') (./LatinVersion/F3MagAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19754,7 +19798,7 @@ ene\EU2/LinLibertine(0)/bx/n/12 ra\EU2/LinLibertine(0)/m/n/12 ti\EU2/LinLiberti
 ne(0)/bx/n/12 ó\EU2/LinLibertine(0)/m/n/12 nes. 
  []
 
-[29] (./F3MagAnt-02.tex
+[29] (./LatinVersion/F3MagAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19762,44 +19806,16 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [30] (./F4Ant1-01.tex
+from 'hyphenate') [30] (./LatinVersion/F4Ant1-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
 at position 1 in 'hyphenate'
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
-n
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'LinLibertine_DRahBen(0)' created for font
-. 'LinLibertine_DRahBen' with options [,].
-. 
-. This font family consists of the following shapes:
-.................................................
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
-n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
-n
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'LinLibertine_DRahBen4(0)' created for font
-. 'LinLibertine_DRahBen4' with options [,].
-. 
-. This font family consists of the following shapes:
-.................................................
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
-n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19811,9 +19827,37 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
+n
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_DRahBen4(0)' created for font
+. 'LinLibertine_DRahBen4' with options [,].
+. 
+. This font family consists of the following shapes:
+.................................................
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
+n
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
+n
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_DRahBen(0)' created for font
+. 'LinLibertine_DRahBen' with options [,].
+. 
+. This font family consists of the following shapes:
+.................................................
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
+n
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19826,7 +19870,8 @@ n
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4FL1.tex
+from 'hyphenate')
+(./LatinVersion/F4FL1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19834,39 +19879,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4Ant1-02.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4FL2.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [31] (./F4Ant2-02.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4FL3.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4Ant3-02.tex
+from 'hyphenate') (./LatinVersion/F4Ant1-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19875,7 +19888,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./F4FL4.tex
+(./LatinVersion/F4FL2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19883,23 +19896,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [32] (./F4Ant4-02.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4Ant5-01.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4FL5.tex
+from 'hyphenate') [31] (./LatinVersion/F4Ant2-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19908,7 +19905,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./F4Ant5-02.tex
+(./LatinVersion/F4FL3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19916,7 +19913,58 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4Hym-Hieme.tex
+from 'hyphenate') (./LatinVersion/F4Ant3-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/F4FL4.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') [32] (./LatinVersion/F4Ant4-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/F4Ant5-01.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/F4FL5.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/F4Ant5-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/F4Hym-Hieme.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19924,7 +19972,8 @@ at position 1 in 'hyphenate' [33]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F4Hym-Aestate.tex
+from 'hyphenate')
+(./LatinVersion/F4Hym-Aestate.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19932,8 +19981,7 @@ at position 1 in 'hyphenate' [34]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate')
-(./F4MagAnt-01.tex
+from 'hyphenate') (./LatinVersion/F4MagAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19954,7 +20002,7 @@ ene\EU2/LinLibertine(0)/m/it/12 rati\EU2/LinLibertine(0)/bx/n/12 ó\EU2/LinLibe
 rtine(0)/m/n/12 nes. 
  []
 
-(./F4MagAnt-02.tex
+(./LatinVersion/F4MagAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -19962,16 +20010,16 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [35] [36] (./F5Ant1-01.tex
+from 'hyphenate') [35] [36] (./LatinVersion/F5Ant1-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
 at position 1 in 'hyphenate'
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19983,9 +20031,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -19997,9 +20045,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20011,9 +20059,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20026,7 +20074,8 @@ n
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5FL1.tex
+from 'hyphenate')
+(./LatinVersion/F5FL1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20038,7 +20087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--90
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5Ant1-02.tex
+from 'hyphenate') (./LatinVersion/F5Ant1-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20046,7 +20095,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5FL2.tex
+from 'hyphenate') (./LatinVersion/F5FL2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20054,7 +20103,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [37] (./F5Ant2-02.tex
+from 'hyphenate') [37]
+(./LatinVersion/F5Ant2-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20066,7 +20116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--97
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5Ant3-01.tex
+from 'hyphenate') (./LatinVersion/F5Ant3-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20074,7 +20124,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5FL3.tex
+from 'hyphenate') (./LatinVersion/F5FL3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20092,7 +20142,7 @@ ertine(0)/m/n/12 num : []\gregoriosymbolfont *[] \EU2/LinLibertine(0)/m/n/12 D
 ne(0)/m/n/12 nem. 
  []
 
-[38] (./F5Ant3-02.tex
+[38] (./LatinVersion/F5Ant3-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20100,23 +20150,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5Ant4-01.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5FL4.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [39] (./F5Ant4-02.tex
+from 'hyphenate') (./LatinVersion/F5Ant4-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20125,7 +20159,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./F5Ant5-01.tex
+(./LatinVersion/F5FL4.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20133,7 +20167,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5FL5.tex
+from 'hyphenate') [39] (./LatinVersion/F5Ant4-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20141,7 +20175,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5Ant5-02.tex
+from 'hyphenate')
+(./LatinVersion/F5Ant5-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20149,7 +20184,24 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5Hym-Hieme.tex
+from 'hyphenate') (./LatinVersion/F5FL5.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/F5Ant5-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/F5Hym-Hieme.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20158,7 +20210,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./F5Hym-Aestate.tex
+(./LatinVersion/F5Hym-Aestate.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20166,7 +20218,7 @@ at position 1 in 'hyphenate' [41]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F5MagAnt-01.tex
+from 'hyphenate') (./LatinVersion/F5MagAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20188,7 +20240,7 @@ e(0)/m/n/12 ecce enim ex hoc beá-tam me di-cent omnes gene\EU2/LinLibertine(0)
 nLibertine(0)/m/n/12 nes. 
  []
 
-[42] (./F5MagAnt-02.tex
+[42] (./LatinVersion/F5MagAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20196,16 +20248,16 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [43] (./F6Ant1-01.tex
+from 'hyphenate') [43] (./LatinVersion/F6Ant1-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
 at position 1 in 'hyphenate'
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20217,9 +20269,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20231,9 +20283,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20245,9 +20297,9 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20260,7 +20312,8 @@ n
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6FL1.tex
+from 'hyphenate')
+(./LatinVersion/F6FL1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20272,7 +20325,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--161
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6Ant1-02.tex
+from 'hyphenate') (./LatinVersion/F6Ant1-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20280,7 +20333,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6FL2.tex
+from 'hyphenate') (./LatinVersion/F6FL2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20298,7 +20351,7 @@ inLibertine(0)/m/n/12 et án-ima mea co\EU2/LinLibertine(0)/bx/n/12 gnó\EU2/Li
 nLibertine(0)/m/n/12 scit
  []
 
-(./F6Ant2-02.tex
+(./LatinVersion/F6Ant2-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20306,23 +20359,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6Ant3-01.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6FL3.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [45] (./F6Ant3-02.tex
+from 'hyphenate') (./LatinVersion/F6Ant3-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20331,7 +20368,24 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./F6FL4.tex
+(./LatinVersion/F6FL3.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') [45] (./LatinVersion/F6Ant3-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/F6FL4.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20343,7 +20397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--182
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [46] (./F6Ant4-02.tex
+from 'hyphenate') [46] (./LatinVersion/F6Ant4-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20351,7 +20405,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6Ant5-01.tex
+from 'hyphenate') (./LatinVersion/F6Ant5-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20359,7 +20413,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6FL5.tex
+from 'hyphenate')
+(./LatinVersion/F6FL5.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20371,7 +20426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--164
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6Ant5-02.tex
+from 'hyphenate') (./LatinVersion/F6Ant5-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20379,7 +20434,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6Hym-Hieme.tex
+from 'hyphenate') (./LatinVersion/F6Hym-Hieme.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20387,7 +20442,8 @@ at position 1 in 'hyphenate' [47]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./F6Hym-Aestate.tex
+from 'hyphenate')
+(./LatinVersion/F6Hym-Aestate.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20395,8 +20451,7 @@ at position 1 in 'hyphenate' [48]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate')
-(./F6MagAnt-01.tex
+from 'hyphenate') (./LatinVersion/F6MagAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20417,7 +20472,7 @@ e(0)/m/n/12 ecce enim ex hoc beá-tam me di-cent omnes gene\EU2/LinLibertine(0)
 /m/it/12 rati\EU2/LinLibertine(0)/bx/n/12 ó\EU2/LinLibertine(0)/m/n/12 nes. 
  []
 
-[49] (./F6MagAnt-02.tex
+[49] (./LatinVersion/F6MagAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20425,44 +20480,16 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [50] (./SabFL1.tex
+from 'hyphenate') [50] (./LatinVersion/SabFL1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
 at position 1 in 'hyphenate'
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
-n
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'LinLibertine_DRahBen(0)' created for font
-. 'LinLibertine_DRahBen' with options [,].
-. 
-. This font family consists of the following shapes:
-.................................................
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
-n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
-n
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'LinLibertine_DRahBen4(0)' created for font
-. 'LinLibertine_DRahBen4' with options [,].
-. 
-. This font family consists of the following shapes:
-.................................................
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
-n
-luaotfload: font no 63 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20474,9 +20501,37 @@ n
 .................................................
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
-luaotfload: font no 65 (LinLibertineDisplay) defines feature locl for script lat
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
+n
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_DRahBen4(0)' created for font
+. 'LinLibertine_DRahBen4' with options [,].
+. 
+. This font family consists of the following shapes:
+.................................................
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
+n
+luaotfload: font no 63 (LinLibertineDisplay) defines feature nalt for script lat
+n
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_DRahBen(0)' created for font
+. 'LinLibertine_DRahBen' with options [,].
+. 
+. This font family consists of the following shapes:
+.................................................
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload | load : auto-selecting default features for script: dflt
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
+n
+luaotfload: font no 65 (LinLibertineDisplay) defines feature nalt for script lat
 n
 .................................................
 . fontspec info: "defining-font"
@@ -20489,7 +20544,33 @@ n
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabAnt1-02.tex
+from 'hyphenate')
+(./LatinVersion/SabAnt1-02.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/SabAnt2-01.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') [51]
+(./LatinVersion/SabFL2.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/SabAnt2-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20498,7 +20579,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./SabAnt2-01.tex
+(./LatinVersion/SabAnt3-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20506,7 +20587,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [51] (./SabFL2.tex
+from 'hyphenate') (./LatinVersion/SabFL3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20514,7 +20595,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabAnt2-02.tex
+from 'hyphenate') [52]
+(./LatinVersion/SabAnt3-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20522,40 +20604,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabAnt3-01.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate')
-(./SabFL3.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [52] (./SabAnt3-02.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabAnt4-01.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabFL4.tex
+from 'hyphenate') (./LatinVersion/SabAnt4-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20564,7 +20613,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-[53] (./SabAnt4-02.tex
+(./LatinVersion/SabFL4.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20572,7 +20621,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabFL5.tex
+from 'hyphenate') [53] (./LatinVersion/SabAnt4-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20580,7 +20629,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabAnt5-02.tex
+from 'hyphenate')
+(./LatinVersion/SabFL5.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20588,16 +20638,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabHym-Hieme.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-[54]
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./SabHym-Aestate.tex
+from 'hyphenate') (./LatinVersion/SabAnt5-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20605,7 +20646,25 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [55] (./SabMagAnt-01.tex
+from 'hyphenate')
+(./LatinVersion/SabHym-Hieme.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate' [54]
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/SabHym-Aestate.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+[55] (./LatinVersion/SabMagAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20627,7 +20686,7 @@ e(0)/m/n/12 ecce enim ex hoc beá-tam me di-cent omnes gene\EU2/LinLibertine(0)
 nLibertine(0)/m/n/12 nes. 
  []
 
-(./SabMagAnt-02.tex
+(./LatinVersion/SabMagAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20639,7 +20698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--206
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [56] [57] (./JubeDomine.tex
+from 'hyphenate') [56] [57] (./LatinVersion/JubeDomine.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20647,15 +20706,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./NoctemQuietam.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CapitulumFratres.tex
+from 'hyphenate') (./LatinVersion/NoctemQuietam.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20664,7 +20715,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./AdjutoriumNostrum.tex
+(./LatinVersion/CapitulumFratres.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20672,7 +20723,16 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./QuiFecitCaelum.tex
+from 'hyphenate') (./LatinVersion/AdjutoriumNostrum.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate')
+(./LatinVersion/QuiFecitCaelum.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20686,7 +20746,7 @@ Overfull \hbox (0.66801pt too wide) in paragraph at lines 3553--3554
 á-tum Michaélem Archán-gelum, beá-tum Joán-
  []
 
-[58] (./ConverteNosDeus.tex
+[58] (./LatinVersion/ConverteNosDeus.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20789,7 +20849,8 @@ luaotfload: no font with id 67
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DeusInAdjutoriumFerial.tex
+from 'hyphenate')
+(./LatinVersion/DeusInAdjutoriumFerial.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20801,7 +20862,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--308
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./LausTibi.tex
+from 'hyphenate') (./LatinVersion/LausTibi.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20809,7 +20870,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CompAnt-01.tex
+from 'hyphenate') (./LatinVersion/CompAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20817,7 +20878,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CompFL1.tex
+from 'hyphenate')
+(./LatinVersion/CompFL1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20833,7 +20895,7 @@ egoriosymbolfont *[] \EU2/LinLibertine(0)/m/n/12 Dómi-nus exáudiet me cum cla
 máve\EU2/LinLibertine(0)/m/it/12 ro
  []
 
-[59] (./CompFL2.tex
+[59] (./LatinVersion/CompFL2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20841,7 +20903,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CompFL3.tex
+from 'hyphenate') (./LatinVersion/CompFL3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20849,7 +20911,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [60] (./CompFL4.tex
+from 'hyphenate') [60]
+(./LatinVersion/CompFL4.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20857,7 +20920,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CompAnt-02.tex
+from 'hyphenate') (./LatinVersion/CompAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20866,7 +20929,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./TeLucisPAFeriis.tex
+(./LatinVersion/TeLucisPAFeriis.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20874,15 +20937,16 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./TeLucisPADominicis.tex
+from 'hyphenate') (./LatinVersion/TeLucisPADominicis.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate' [61]
+at position 1 in 'hyphenate'
+[61]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./TeLucisPASimplex.tex
+from 'hyphenate') (./LatinVersion/TeLucisPASimplex.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20890,7 +20954,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./TeLucisPADuplex.tex
+from 'hyphenate') (./LatinVersion/TeLucisPADuplex.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20903,7 +20967,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--460
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./TeLucisAdvent.tex
+from 'hyphenate') (./LatinVersion/TeLucisAdvent.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20915,7 +20979,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--436
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./TeLucisLent.tex
+from 'hyphenate') (./LatinVersion/TeLucisLent.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20923,7 +20987,8 @@ at position 1 in 'hyphenate' [63]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./TeLucisBMVCorpChrist.tex
+from 'hyphenate')
+(./LatinVersion/TeLucisBMVCorpChrist.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20935,7 +21000,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--454
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [64] (./CompRespPA.tex
+from 'hyphenate') [64]
+
+LaTeX Warning: Reference `DominicaCapitulum' on page 65 undefined on input line 
+3825.
+
+(./LatinVersion/CompRespPA.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20947,7 +21017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--266
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CustodiNosDomine.tex
+from 'hyphenate') (./LatinVersion/CustodiNosDomine.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20955,15 +21025,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CompRespAdvent.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CustodiNosDomine.tex
+from 'hyphenate') (./LatinVersion/CompRespAdvent.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20972,7 +21034,15 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./CompRespLent.tex
+(./LatinVersion/CustodiNosDomine.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') (./LatinVersion/CompRespLent.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20980,7 +21050,8 @@ at position 1 in 'hyphenate' [65]
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CustodiNosDomine.tex
+from 'hyphenate')
+(./LatinVersion/CustodiNosDomine.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20988,7 +21059,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CompNuncDimAnt-01.tex
+from 'hyphenate') (./LatinVersion/CompNuncDimAnt-01.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -20997,7 +21068,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-(./CompNuncDimAnt-02.tex
+(./LatinVersion/CompNuncDimAnt-02.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21005,7 +21076,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [66] (./Kyrie.tex
+from 'hyphenate') [66] (./LatinVersion/Kyrie.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21013,7 +21084,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./PaterNosterSecreto.tex
+from 'hyphenate')
+(./LatinVersion/PaterNosterSecreto.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21025,7 +21097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--120
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CredoSecreto.tex
+from 'hyphenate') (./LatinVersion/CredoSecreto.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21033,7 +21105,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./DomineExaudi-short-03.tex
+from 'hyphenate') (./LatinVersion/DomineExaudi-short-03.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21042,13 +21114,18 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
+
+LaTeX Warning: Reference `OratioSimplex' on page 67 undefined on input line 3986
+.
+
+
 Overfull \hbox (10.40709pt too wide) in paragraph at lines 3992--3993
 [][][]\EU2/LinLibertine(0)/m/n/12 sita, quǽ-sumus Dómine, habi-tatiónem i
 ﬆam, et omnes in-sí-dias in-imíci ab ea longe repélle : []\gregoriosymbolf
 ont +[]
  []
 
-[67] (./CompBenedicamus.tex
+[67] (./LatinVersion/CompBenedicamus.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21056,7 +21133,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./BenedicatEtCustodiat.tex
+from 'hyphenate')
+(./LatinVersion/BenedicatEtCustodiat.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21064,8 +21142,11 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [68]
-(./TonusOrationis1.tex
+from 'hyphenate')
+
+LaTeX Warning: Reference `sec:AntBMV' on page 68 undefined on input line 4033.
+
+[68] (./LatinVersion/TonusOrationis1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21073,7 +21154,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./TonusOrationis3.tex
+from 'hyphenate') (./LatinVersion/TonusOrationis3.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21085,7 +21166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--337
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [69] (./TonusOrationis2.tex
+from 'hyphenate') [69] (./LatinVersion/TonusOrationis2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21093,7 +21174,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./OratioSimplex1.tex
+from 'hyphenate') (./LatinVersion/OratioSimplex1.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21101,7 +21182,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./OratioSimplex2.tex
+from 'hyphenate') (./LatinVersion/OratioSimplex2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21109,8 +21190,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate')
-[70] (./CommemoratioCrucis.tex
+from 'hyphenate') [70]
+(./LatinVersion/CommemoratioCrucis.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21118,15 +21199,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./OmnisTerraV.tex
-luatexbase-mcb: inserting 'gregoriotex.callback'
-at position 1 in 'post_linebreak_filter'
-luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
-at position 1 in 'hyphenate'
-luatexbase-mcb: removing 'gregoriotex.callback'
-from 'post_linebreak_filter'
-luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CommemoratioBMV.tex
+from 'hyphenate') (./LatinVersion/OmnisTerraV.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21135,13 +21208,21 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate')
-[71]
+(./LatinVersion/CommemoratioBMV.tex
+luatexbase-mcb: inserting 'gregoriotex.callback'
+at position 1 in 'post_linebreak_filter'
+luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
+at position 1 in 'hyphenate'
+luatexbase-mcb: removing 'gregoriotex.callback'
+from 'post_linebreak_filter'
+luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
+from 'hyphenate') [71]
 Overfull \hbox (22.70393pt too wide) in paragraph at lines 4187--4188
 [][][]\EU2/LinLibertine(0)/m/n/12 us, qui salútis ætérnæ, beátæ Maríæ v
 ir-ginitáte fecúnda, humáno géneri prǽmia []
  []
 
-(./CommemoratioJoseph.tex
+(./LatinVersion/CommemoratioJoseph.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21149,7 +21230,7 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CommemoratioApost.tex
+from 'hyphenate') (./LatinVersion/CommemoratioApost.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21157,8 +21238,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [72]
-(./CommemoratioBedae.tex
+from 'hyphenate')
+[72] (./LatinVersion/CommemoratioBedae.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21166,7 +21247,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./CommemoratioPacis.tex
+from 'hyphenate')
+(./LatinVersion/CommemoratioPacis.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21175,7 +21257,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate') [73]
-(./AlmaRedemptorisSolemn.tex
+(./LatinVersion/AlmaRedemptorisSolemn.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21196,7 +21278,7 @@ Overfull \hbox (22.70393pt too wide) in paragraph at lines 4354--4355
 ir-ginitáte fecúnda, humáno géneri prǽmia []
  []
 
-[74] (./AveReginaCaelorumSolemn.tex
+[74] (./LatinVersion/AveReginaCaelorumSolemn.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21204,7 +21286,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./ReginaCaeliSolemn2.tex
+from 'hyphenate')
+(./LatinVersion/ReginaCaeliSolemn2.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21213,7 +21296,7 @@ luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate') [75]
-(./SalveReginaSolemn.tex
+(./LatinVersion/SalveReginaSolemn.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21225,7 +21308,8 @@ from 'hyphenate') [76]
 luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt"
 luaotfload | load : path lookup of "LinLibertine_R.otf" unsuccessful, falling ba
-ck to file: (./AlmaRedemptorisSimple.tex
+ck to file:
+(./LatinVersion/AlmaRedemptorisSimple.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21237,7 +21321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--444
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./AveReginaCaelorumSimple.tex
+from 'hyphenate') (./LatinVersion/AveReginaCaelorumSimple.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21249,7 +21333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--345
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') (./ReginaCaeliSimple.tex
+from 'hyphenate') (./LatinVersion/ReginaCaeliSimple.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21257,7 +21341,8 @@ at position 1 in 'hyphenate'
 luatexbase-mcb: removing 'gregoriotex.callback'
 from 'post_linebreak_filter'
 luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
-from 'hyphenate') [77] (./SalveReginaSimple.tex
+from 'hyphenate') [77]
+(./LatinVersion/SalveReginaSimple.tex
 luatexbase-mcb: inserting 'gregoriotex.callback'
 at position 1 in 'post_linebreak_filter'
 luatexbase-mcb: inserting 'gregoriotex.disable_hyphenation'
@@ -21272,18 +21357,25 @@ luatexbase-mcb: removing 'gregoriotex.disable_hyphenation'
 from 'hyphenate') [78]
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt [79] (./ve
-spers.aux) )
+spers.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 
 Here is how much of LuaTeX's memory you used:
- 45794 strings out of 494698
- 3553455,794899 words of node,token memory allocated
+ 45987 strings out of 494698
+ 3553540,794899 words of node,token memory allocated
  3101568 words of node memory still in use:
    105786 hlist, 17683 vlist, 70731 rule, 176700 glue, 70536 kern, 445 penalty, 
 35409 glyph, 70888 attribute, 839 glue_spec, 35469 attribute_list, 1 write, 442 
 pdf_literal, 884 pdf_colorstack nodes
-   avail lists: 1:5,2:4398,3:1651,4:273,5:946,6:760,7:115,8:4,9:458,10:133
+   avail lists: 1:4,2:4398,3:1650,4:273,5:946,6:760,7:115,8:3,9:458,10:133
  47246 multiletter control sequences out of 65536+600000
- 69 fonts using 17237231 bytes
+ 69 fonts using 17236751 bytes
  48i,12n,53p,849b,2058s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./gresym3.ttf><./LinLibertine_DRahBen4.ttf><./LinLibertine_DRahBen.ttf></usr/lo
 cal/texlive/2013/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf>
@@ -21291,7 +21383,7 @@ cal/texlive/2013/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RI.otf>
 live/2013/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RB.otf></usr/l
 ocal/texlive/2013/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.otf>
 </home/ben/texmf/fonts/truetype/public/gregoriotex/gresym.ttf>
-Output written on vespers.pdf (79 pages, 850263 bytes).
+Output written on vespers.pdf (79 pages, 850338 bytes).
 
 PDF statistics: 308 PDF objects out of 1000 (max. 8388607)
  200 compressed objects within 2 object streams
