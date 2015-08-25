@@ -38,10 +38,22 @@
  
 %% No space for initial letter
 \def\noinitial{%
+\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{}}}}{\textcolor{benred8}{\small \textsc{\textbf{}}}}
 \setspaceafterinitial{0pt plus 0em minus 0em}%
 \setspacebeforeinitial{0pt plus 0em minus 0em}%
 \relax %
 }
+
+%the bilingual stuff seems to necessitate this stuff being reset each time;
+%without this function the initial letter ends up much smaller and the red antiphon number
+%appears over top of the initial, not above it as desired
+\newcommand{\myaboveinitial}[1]{%
+    \expandafter\renewcommand\csname greinitialformat\endcsname[1]{%
+        \fontsize{43}{43}\selectfont ##1
+    }
+    \gresetfirstlineaboveinitial{\textcolor{benred8}{\raisebox{6.0mm}{\small \textsc{\textbf{#1}}}}}{}
+}
+
 
 % REDS
 \definecolor{benred1}{HTML}{E73930}
@@ -68,7 +80,7 @@
 % PSALM TEXT
 
 \newenvironment{psalmtext}{\leftskip 0.25in}{\vspace{2 mm}}
-\newenvironment{rubric}{\color{benred8} \itshape \leftskip 0in \setlength{\parindent}{0.25in}}{\vspace{2 mm}}
+\newenvironment{rubric}{\vspace{2 mm}\color{benred8} \itshape \leftskip 0in \setlength{\parindent}{0.25in}}{\vspace{2 mm}}
 \newenvironment{response}{\leftskip 0in \setlength{\parindent}{0in}}{\vspace{2 mm}}
 
 % REDUCES SUBSECTION SPACE
@@ -76,6 +88,9 @@
 
 % MAKES Flexa : TEXT
 \def\flex{\textit{\textcolor{benred8}{Flexa :}}}
+
+% MAKES Flex : TEXT
+\def\flexeng{\textit{\textcolor{benred8}{Flex :}}}
 
 % MAKES Cantor : TEXT
 \def\cantor{\textit{\textcolor{benred8}{Cantor :}}}
@@ -297,19 +312,10 @@ ORNATUM SIGNIS RHYTHMICIS
 
 \pend\pstart
 
-%%%%%%%%%%%%%%%%
-% eso pic here ???
-% the staff of the first line of the Dixit Dominus extends too far into the right margin
-% this thing should cover that up
-%\placetextbox{0.95}{0.55}{\includegraphics[width=2.963cm]{blank.PNG}}%
-%%%%%%%%%%%%%%%%
-
 \begin{rubric}
 A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitur :
 
 \end{rubric}
-
-\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{}}}}{\textcolor{benred8}{\small \textsc{\textbf{}}}}
 
 {\noinitial
 \includescore{LatinVersion/LausTibi.tex}
@@ -317,16 +323,16 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 
 \pend\pstart
 
-%\vspace{2 mm}
+\vspace{2mm}
 
 \begin{center}\begin{large}\textbf{\textsc{\textcolor{benred8}{1 Antiphona. VII c 2}}}\end{large}\end{center}
+
+\vspace{2mm}
 
 \pend\pstart
 
 % THE BIG INITIAL INSIDE DomAnt1-01.tex
 %\raisebox{1.60cm}{\greinitial{D}}%
-
-%\vspace*{-2.50 cm}
 
 \def\grebiginitialformat#1{%
 {\fontsize{170}{170}\selectfont #1}%
@@ -374,13 +380,171 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 \includescore{LatinVersion/DomAnt1-02.tex}
 }
 
-\vspace{2 mm}
+\pend\pstart
+
+%% DOMINICA 2 ANT.
+
+\setspaceafterinitial{6mm plus 0em minus 0em}
+\setspacebeforeinitial{6mm plus 0em minus 0em}
+
+\myaboveinitial{2 \Abar\ IV g}
+\includescore{LatinVersion/DomAnt2-01.tex}
+
+\pend\pstart
+
+{
+\centering
+\textcolor{benred8}{Psalmus 110.}
+
+}
+
+\pend\pstart
+
+{\noinitial
+\includescore{LatinVersion/DomFL2.tex}
+
+}
+
+\pend\pstart
+
+\begin{psalmtext}
+Magna ó\emph{pera} \textbf{Dó}mini : \gresixstar\ exquisíta in omnes voluntátes \textbf{e}jus.
+
+Conféssio et magnificéntia \emph{opus} \textbf{e}jus : \gresixstar\ et ju\libertineGlyph{s_t}ítia ejus manet in sǽculum \textbf{sǽ}culi.
+
+Memóriam fécit mirabílium suórum, \gredagger\ miséricors et mise\emph{rátor} \textbf{Dó}minus : \gresixstar\ escam dedit timénti\textbf{bus} se.
+
+Memor erit in sǽculum te\libertineGlyph{s_t}a\emph{ménti} \textbf{su}i : \gresixstar\ virtútem óperum suórum annuntiábit pópulo \textbf{su}o :
+
+Ut det illis hæredi\emph{tátem} \textbf{gén}tium : \gresixstar\ ópera mánuum ejus véritas et ju\textbf{dí}cium.
+
+Fidélia ómnia mandáta ejus : \gredagger\ confirmáta in sǽ\emph{culum} \textbf{sǽ}culi : \gresixstar\ fa\libertineGlyph{c_t}a in veritáte et æqui\textbf{tá}te.
+
+Redemptiónem misit pó\emph{pulo} \textbf{su}o : \gresixstar\ mandávit in ætérnum te\libertineGlyph{s_t}améntum \textbf{su}um.
+
+\textcolor{benred8}{\emph{Fit reverentia :}} San\libertineGlyph{c_t}um et terríbile \emph{nomen} \textbf{e}jus : \gresixstar\ inítium sapiéntiae timor \textbf{Dó}mini.
+
+Intellé\libertineGlyph{c_t}us bonus ómnibus facién\emph{tibus} \textbf{e}um : \gresixstar\ laudátio ejus manet in sǽculum \textbf{sǽ}culi.
+
+Glória Pa\emph{tri, et} \textbf{Fí}lio, \gresixstar\ et Spirítui \textbf{Sanc}to.
+
+Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in sǽcula sæculórum. \textbf{A}men.
+
+\end{psalmtext}
+
+\pend\pstart
+
+{\noinitial
+\includescore{LatinVersion/DomAnt2-02.tex}
+}
+
+\pend\pstart
+
+%% DOMINICA 3 ANT.
+
+\setspaceafterinitial{7mm plus 0em minus 0em}
+\setspacebeforeinitial{7mm plus 0em minus 0em}
+
+\myaboveinitial{3 \Abar\ IV a}
+\includescore{LatinVersion/DomAnt3-01.tex}
+
+\pend\pstart
+
+\subsubsection*{Psalmus 111.}
+
+\pend\pstart
+
+{\noinitial
+\includescore{LatinVersion/DomFL3.tex}
+}
+
+\pend\pstart
+
+\begin{psalmtext}
+Potens in terra erit \emph{semen} \textbf{e}jus : \gresixstar\ generátio re\libertineGlyph{c_t}órum \emph{benedi}\textbf{cé}tur.
+
+Glória et divítiae in \emph{domo} \textbf{e}jus : \gresixstar\ et ju\libertineGlyph{s_t}ítia ejus manet in \emph{sǽculum} \textbf{sǽ}culi.
+
+Exórtum e\libertineGlyph{s_t} in ténebris \emph{lumen} \textbf{rec}tis : \gresixstar\ miséricors, et mise\emph{rátor, et} \textbf{jus}tus.
+
+Jucúndus homo qui miserétur et cómmodat, \gredagger\ dispónet sermónes suos \emph{in ju}\textbf{dí}cio : \gresixstar\ quia in ætérnum \emph{non commo}\textbf{vé}bitur.
+
+In memória ætérna \emph{erit} \textbf{jus}tus : \gresixstar\ ab auditióne ma\emph{la non ti}\textbf{mé}bit.
+
+Parátum cor ejus speráre in Dómino, \gredagger\ confirmátum \emph{e\libertineGlyph{s_t} cor} \textbf{e}jus : \gresixstar\ non commovébitur donec despíciat i\emph{nimícos} \textbf{su}os.
+
+Dispérsit, dedit paupéribus : \gredagger\ ju\libertineGlyph{s_t}ítia ejus manet in sǽ\emph{culum} \textbf{sǽ}culi : \gresixstar\ cornu ejus exaltá\emph{bitur in} \textbf{gló}ria.
+
+Peccátor vidébit, et irascétur, \gredagger\ déntibus suis fremet \emph{et ta}\textbf{bé}scet : \gresixstar\ desidérium pecca\emph{tórum pe}\textbf{rí}bit.
+
+Glória Pa\emph{tri, et} \textbf{Fí}lio, \gresixstar\ et Sp\emph{irítui} \textbf{Sanc}to.
+
+Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in sǽcula sæ\emph{culórum}. \textbf{A}men.
+
+\end{psalmtext}
+
+\pend\pstart
+
+{\noinitial
+\includescore{LatinVersion/DomAnt3-02.tex}
+}
+
+\pend\pstart
+
+%% DOMINICA 4 ANT.
+
+\setspaceafterinitial{7mm plus 0em minus 0em}
+\setspacebeforeinitial{7mm plus 0em minus 0em}
+
+\myaboveinitial{4 \Abar\ VII c}
+\includescore{LatinVersion/DomAnt4-01.tex}
+
+\pend\pstart
+
+\subsubsection*{Psalmus 112.}
+
+\pend\pstart
+
+{\noinitial
+\includescore{LatinVersion/DomFL4.tex}
+}
+
+\pend\pstart
+
+\begin{psalmtext}
+\textcolor{benred8}{\emph{Fit reverentia :}} Sit nomen Dómini \textbf{be}ne\textbf{díc}tum, \gresixstar\ ex hoc nunc, et \textbf{us}que in \textbf{sǽ}culum.
+
+A solis ortu usque \textbf{ad} oc\textbf{cá}sum, \gresixstar\ laudábile \textbf{no}men \textbf{Dó}mini.
+
+Excélsus super omnes \textbf{gen}tes \textbf{Dó}minus, \gresixstar\ et super cælos \textbf{gló}ria \textbf{e}jus.
+
+Quis sicut Dóminus Deus no\libertineGlyph{s_t}er, qui in \textbf{al}tis \textbf{há}bitat, \gresixstar\ et humília réspicit in cælo \textbf{et} in \textbf{ter}ra?
+
+Súscitans a \textbf{ter}ra \textbf{í}nopem, \gresixstar\ et de \libertineGlyph{s_t}ércore \textbf{é}rigens \textbf{páu}perem :
+
+Ut cóllocet eum \textbf{cum} prin\textbf{cí}pibus, \gresixstar\ cum princípibus \textbf{pó}puli \textbf{su}i.
+
+Qui habitáre facit \libertineGlyph{s_t}éri\textbf{lem} in \textbf{do}mo, \gresixstar\ matrem fili\textbf{ó}rum lae\textbf{tán}tem.
+
+Glória \textbf{Pa}tri, et \textbf{Fí}lio, \gresixstar\ et Spi\textbf{rí}tui \textbf{Sanc}to.
+
+Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
+
+\end{psalmtext}
+
+\pend\pstart
+
+{\noinitial
+\includescore{LatinVersion/DomAnt4-02.tex}
+}
 
 \pend\endnumbering
 \end{Leftside}
 \begin{Rightside}
 
 \firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
+
+
 
 % SUNDAY AT VESPERS
 
@@ -399,8 +563,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 {\fontsize{43}{43}\selectfont #1}%
 }
 
-\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{\Vbar}}}}{\textcolor{benred8}{\small \textsc{\textbf{\Vbar}}}}
-
+\myaboveinitial{\Vbar}
 \includescore{EnglishVersion/DeusInAdjutorium.tex}
 
 \pend\pstart
@@ -410,8 +573,6 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 
 \end{rubric}
 
-\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{}}}}{\textcolor{benred8}{\small \textsc{\textbf{}}}}
-
 {\noinitial
 \includescore{EnglishVersion/LausTibi.tex}
 
@@ -419,11 +580,13 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 
 \pend\pstart
 
+\vspace{2mm}
+
 \begin{center}\begin{large}\textbf{\textsc{\textcolor{benred8}{1 Antiphon. VII c 2}}}\end{large}\end{center}
 
-\pend\pstart
+\vspace{2mm}
 
-%\vspace*{-2.50 cm}
+\pend\pstart
 
 \def\grebiginitialformat#1{%
 {\fontsize{170}{170}\selectfont #1}%
@@ -433,7 +596,6 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 \includescore{EnglishVersion/DomAnt1-01_plain_d.tex}
 
 }
-
 
 \pend\pstart
 
@@ -474,85 +636,35 @@ As it was in the beginning, is now, and \textbf{e}ver \textbf{shall} be, \gresix
 \includescore{EnglishVersion/DomAnt1-02.tex}
 }
 
-\pend\endnumbering
-\end{Rightside}
-\end{pages}
-\Pages
+\pend\pstart
 
-%% DOMINICA 2 ANT.
-
-\subsection*{}
-
-\def\greinitialformat#1{%
-{\fontsize{43}{43}\selectfont #1}%
-}
+%% SUNDAY 2 ANT.
 
 \setspaceafterinitial{6mm plus 0em minus 0em}
 \setspacebeforeinitial{6mm plus 0em minus 0em}
 
-\gresetfirstlineaboveinitial{\small \textsc{ \textbf{\textcolor{benred8}{2 \Abar\ IV g}}}}{\small \textsc{ \textbf{\textcolor{benred8}{2 \Abar\ IV g}}}}
-\includescore{LatinVersion/DomAnt2-01.tex}
-
-{
-\centering
-\textcolor{benred8}{Psalmus 110.}
-
-}
-
-%\subsubsection*{Psalmus 110.}
-
-{\noinitial
-%\grenoinitial
-\includescore{LatinVersion/DomFL2.tex}
-
-}
-
-
-\begin{psalmtext}
-Magna ó\emph{pera} \textbf{Dó}mini : \gresixstar\ exquisíta in omnes voluntátes \textbf{e}jus.
-
-Conféssio et magnificéntia \emph{opus} \textbf{e}jus : \gresixstar\ et ju\libertineGlyph{s_t}ítia ejus manet in sǽculum \textbf{sǽ}culi.
-
-Memóriam fécit mirabílium suórum, \gredagger\ miséricors et mise\emph{rátor} \textbf{Dó}minus : \gresixstar\ escam dedit timénti\textbf{bus} se.
-
-Memor erit in sǽculum te\libertineGlyph{s_t}a\emph{ménti} \textbf{su}i : \gresixstar\ virtútem óperum suórum annuntiábit pópulo \textbf{su}o :
-
-Ut det illis hæredi\emph{tátem} \textbf{gén}tium : \gresixstar\ ópera mánuum ejus véritas et ju\textbf{dí}cium.
-
-Fidélia ómnia mandáta ejus : \gredagger\ confirmáta in sǽ\emph{culum} \textbf{sǽ}culi : \gresixstar\ fa\libertineGlyph{c_t}a in veritáte et æqui\textbf{tá}te.
-
-Redemptiónem misit pó\emph{pulo} \textbf{su}o : \gresixstar\ mandávit in ætérnum te\libertineGlyph{s_t}améntum \textbf{su}um.
-
-\textcolor{benred8}{\emph{Fit reverentia :}} San\libertineGlyph{c_t}um et terríbile \emph{nomen} \textbf{e}jus : \gresixstar\ inítium sapiéntiae timor \textbf{Dó}mini.
-
-Intellé\libertineGlyph{c_t}us bonus ómnibus facién\emph{tibus} \textbf{e}um : \gresixstar\ laudátio ejus manet in sǽculum \textbf{sǽ}culi.
-
-Glória Pa\emph{tri, et} \textbf{Fí}lio, \gresixstar\ et Spirítui \textbf{Sanc}to.
-
-Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in sǽcula sæculórum. \textbf{A}men.
-
-\end{psalmtext}
-
-{\noinitial
-\includescore{LatinVersion/DomAnt2-02.tex}
-}
-
-\vspace{2 mm}
-
-\setspaceafterinitial{6mm plus 0em minus 0em}
-\setspacebeforeinitial{6mm plus 0em minus 0em}
-
-\gresetfirstlineaboveinitial{\small \textsc{ \textbf{\textcolor{benred8}{2 \Abar\ IV g}}}}{\small \textsc{ \textbf{\textcolor{benred8}{2 \Abar\ IV g}}}}
+\myaboveinitial{2 \Abar\ IV g}
 \includescore{EnglishVersion/DomAnt2-01.tex}
 
+\pend\pstart
+
 {
 \centering
-\textcolor{benred8}{Psalmus 110.}
+\textcolor{benred8}{Psalm 110.}
 
 }
 
+\pend\pstart
+
+{\noinitial
+\includescore{EnglishVersion/DomFL2.tex}
+
+}
+
+\pend\pstart
+
 \begin{psalmtext}
-I will praise thee, O Lord, \emph{with my} \textbf{whole} heart ; \gresixstar\ in the council of the just, and in the congre\textbf{ga}tion.
+%I will praise thee, O Lord, \emph{with my} \textbf{whole} heart ; \gresixstar\ in the council of the just, and in the congre\textbf{ga}tion.
 
 Great are the \emph{works of} \textbf{the} Lord : \gresixstar\ sought out according to all \textbf{his} wills.
 
@@ -578,106 +690,123 @@ As it was in the beginning, is now, and \emph{ever} \textbf{shall} be, \gresixst
 
 \end{psalmtext}
 
+\pend\pstart
+
 {\noinitial
 \includescore{EnglishVersion/DomAnt2-02.tex}
 }
 
+\pend\pstart
 
-%% DOMINICA 3 ANT.
+ %% SUNDAY 3 ANT.
 
-\subsection*{}
+\setspaceafterinitial{5mm plus 0em minus 0em}
+\setspacebeforeinitial{5mm plus 0em minus 0em}
+
+\myaboveinitial{3 \Abar\ IV a}
+\includescore{EnglishVersion/DomAnt3-01.tex}
+
+\pend\pstart
+
+\subsubsection*{Psalm 111.}
+
+\pend\pstart
+
+{\noinitial
+\includescore{EnglishVersion/DomFL3.tex}
+}
+
+\pend\pstart
+
+\begin{psalmtext}
+%Blessed is the man that \emph{feareth} \textbf{the} Lord: \gresixstar\ he shall delight exceedingly \emph{in his com}\textbf{mand}ments.
+
+His seed shall be migh\emph{ty up}\textbf{on} earth: \gresixstar\ the generation of the right\emph{eous shall be} \textbf{bles}sed.
+
+Glory and wealth shall \emph{be in} \textbf{his} house: \gresixstar\ and his justice remaineth for \emph{ever and} \textbf{e}ver.
+
+To the righteous a light is risen \emph{up in} \textbf{dark}ness: \gresixstar\ he is merciful, and \emph{compassion}\textbf{ate} and just.
+
+Acceptable is the man that sheweth mercy and lendeth: \gredagger\ he shall order his \emph{words with} \textbf{judg}ment: \gresixstar\ because he shall not \emph{be moved for} \textbf{e}ver.
+
+The just shall be in everlast\emph{ing re}\textbf{mem}brance: \gresixstar\ he shall not fear \emph{the evil} \textbf{hear}ing.
+
+His heart is ready to hope in the Lord: \gredagger\ his \emph{heart is} \textbf{strength}ened, \gresixstar\ he shall not be moved until he look \emph{over his} \textbf{e}nemies.
+
+He hath distributed, he hath given to the poor: \gredagger\ his justice remaineth for e\emph{ver and} \textbf{e}ver: \gresixstar\ his horn shall be ex\emph{alted in} \textbf{glo}ry.
+
+The wicked shall see, and shall be angry, \gredagger\ he shall gnash with his \emph{teeth and} \textbf{pine} away: \gresixstar\ the desire of the \emph{wicked shall} \textbf{per}ish.
+
+Glory be to the Fa\emph{ther, and} \textbf{to} the Son, \gresixstar\ and to \emph{the Holy} \textbf{Spi}rit.
+
+As it was in the beginning, is now, and \emph{ever} \textbf{shall} be, \gresixstar\ world \emph{without end}. \textbf{A}men.
+
+\end{psalmtext}
+
+\pend\pstart
+
+{\noinitial
+\includescore{EnglishVersion/DomAnt3-02.tex}
+}
+
+\pend\pstart
+
+%% SUNDAY 4 ANT.
 
 \setspaceafterinitial{7mm plus 0em minus 0em}
 \setspacebeforeinitial{7mm plus 0em minus 0em}
 
-\gresetfirstlineaboveinitial{\small \textsc{ \textbf{\textcolor{benred8}{3 \Abar\ IV a}}}}{\small \textsc{ \textbf{\textcolor{benred8}{3 \Abar\ IV a}}}}
-\includescore{LatinVersion/DomAnt3-01.tex}
+\myaboveinitial{4 \Abar\ VII c}
+\includescore{EnglishVersion/DomAnt4-01.tex}
 
-%{
-%\centering
-%\textcolor{benred8}{Psalmus 111.}
-%
-%}
+\pend\pstart
 
-\subsubsection*{Psalmus 111.}
+\subsubsection*{Psalm 112.}
+
+\pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomFL3.tex}
+\includescore{EnglishVersion/DomFL4.tex}
 }
 
+\pend\pstart
 
 \begin{psalmtext}
-Potens in terra erit \emph{semen} \textbf{e}jus : \gresixstar\ generátio re\libertineGlyph{c_t}órum \emph{benedi}\textbf{cé}tur.
+%Praise the \textbf{Lord}, ye \textbf{child}ren: \gresixstar\ praise ye the \textbf{name} of \textbf{the} Lord.
 
-Glória et divítiae in \emph{domo} \textbf{e}jus : \gresixstar\ et ju\libertineGlyph{s_t}ítia ejus manet in \emph{sǽculum} \textbf{sǽ}culi.
+\textcolor{benred8}{\emph{A sign of reverence is made :}} Blessed be the \textbf{name} of \textbf{the} Lord, \gresixstar\ from henceforth \textbf{now} and for \textbf{e}ver.
 
-Exórtum e\libertineGlyph{s_t} in ténebris \emph{lumen} \textbf{rec}tis : \gresixstar\ miséricors, et mise\emph{rátor, et} \textbf{jus}tus.
+From the rising of the sun unto the going \textbf{down} of \textbf{the} same, \gresixstar\ the name of the Lord is \textbf{worth}y \textbf{of} praise.
 
-Jucúndus homo qui miserétur et cómmodat, \gredagger\ dispónet sermónes suos \emph{in ju}\textbf{dí}cio : \gresixstar\ quia in ætérnum \emph{non commo}\textbf{vé}bitur.
+The Lord is high a\textbf{bove} all \textbf{na}tions; \gresixstar\ and his glory a\textbf{bove} the \textbf{hea}vens.
 
-In memória ætérna \emph{erit} \textbf{jus}tus : \gresixstar\ ab auditióne ma\emph{la non ti}\textbf{mé}bit.
+Who is as the Lord our God, who \textbf{dwel}leth \textbf{on} high: \gresixstar\ and looketh down on the low things in \textbf{hea}ven and \textbf{in} earth?
 
-Parátum cor ejus speráre in Dómino, \gredagger\ confirmátum \emph{e\libertineGlyph{s_t} cor} \textbf{e}jus : \gresixstar\ non commovébitur donec despíciat i\emph{nimícos} \textbf{su}os.
+Raising up the \textbf{need}y \textbf{from} the earth, \gresixstar\ and lifting up the poor \textbf{out} of the \textbf{dung}hill:
 
-Dispérsit, dedit paupéribus : \gredagger\ ju\libertineGlyph{s_t}ítia ejus manet in sǽ\emph{culum} \textbf{sǽ}culi : \gresixstar\ cornu ejus exaltá\emph{bitur in} \textbf{gló}ria.
+That he may \textbf{place} him with \textbf{prin}ces, \gresixstar\ with the princes \textbf{of} his \textbf{peo}ple.
 
-Peccátor vidébit, et irascétur, \gredagger\ déntibus suis fremet \emph{et ta}\textbf{bé}scet : \gresixstar\ desidérium pecca\emph{tórum pe}\textbf{rí}bit.
+Who maketh a barren woman to \textbf{dwell} in \textbf{a} house, \gresixstar\ the joyful \textbf{moth}er of \textbf{child}ren.
 
-Glória Pa\emph{tri, et} \textbf{Fí}lio, \gresixstar\ et Sp\emph{irítui} \textbf{Sanc}to.
+Glory be to the \textbf{Fa}ther, and \textbf{to} the Son, \gresixstar\ and to the \textbf{Ho}ly \textbf{Spi}rit.
 
-Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in sǽcula sæ\emph{culórum}. \textbf{A}men.
+As it was in the beginning, is now, and \textbf{e}ver \textbf{shall} be, \gresixstar\ world with\textbf{out} end. \textbf{A}men.
 
 \end{psalmtext}
 
-{\noinitial
-\includescore{LatinVersion/DomAnt3-02.tex}
-}
-
-\vspace{2 mm}
-
-%% DOMINICA 4 ANT.
-
-\subsection*{}
-
-\setspaceafterinitial{7mm plus 0em minus 0em}
-\setspacebeforeinitial{7mm plus 0em minus 0em}
-
-\gresetfirstlineaboveinitial{\small \textsc{ \textbf{\textcolor{benred8}{4 \Abar\ VII c}}}}{\small \textsc{ \textbf{\textcolor{benred8}{4 \Abar\ VII c}}}}
-\includescore{LatinVersion/DomAnt4-01.tex}
-
-\subsubsection*{Psalmus 112.}
+\pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomFL4.tex}
+\includescore{EnglishVersion/DomAnt4-02.tex}
 }
 
+\pend\endnumbering
+\end{Rightside}
+\end{pages}
+\Pages
 
-\begin{psalmtext}
-\textcolor{benred8}{\emph{Fit reverentia :}} Sit nomen Dómini \textbf{be}ne\textbf{díc}tum, \gresixstar\ ex hoc nunc, et \textbf{us}que in \textbf{sǽ}culum.
 
-A solis ortu usque \textbf{ad} oc\textbf{cá}sum, \gresixstar\ laudábile \textbf{no}men \textbf{Dó}mini.
 
-Excélsus super omnes \textbf{gen}tes \textbf{Dó}minus, \gresixstar\ et super cælos \textbf{gló}ria \textbf{e}jus.
-
-Quis sicut Dóminus Deus no\libertineGlyph{s_t}er, qui in \textbf{al}tis \textbf{há}bitat, \gresixstar\ et humília réspicit in cælo \textbf{et} in \textbf{ter}ra?
-
-Súscitans a \textbf{ter}ra \textbf{í}nopem, \gresixstar\ et de \libertineGlyph{s_t}ércore \textbf{é}rigens \textbf{páu}perem :
-
-Ut cóllocet eum \textbf{cum} prin\textbf{cí}pibus, \gresixstar\ cum princípibus \textbf{pó}puli \textbf{su}i.
-
-Qui habitáre facit \libertineGlyph{s_t}éri\textbf{lem} in \textbf{do}mo, \gresixstar\ matrem fili\textbf{ó}rum lae\textbf{tán}tem.
-
-Glória \textbf{Pa}tri, et \textbf{Fí}lio, \gresixstar\ et Spi\textbf{rí}tui \textbf{Sanc}to.
-
-Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et in sǽcula sæcu\textbf{ló}rum. \textbf{A}men.
-
-\end{psalmtext}
-
-{\noinitial
-\includescore{LatinVersion/DomAnt4-02.tex}
-}
-
-\vspace{2 mm}
 
 %% DOMINICA 5 ANT.
 
