@@ -1,0 +1,9 @@
+*.log
+.goutputstream-3MWXCX
+*~
+*.gaux
+*.end
+*.aux
+*.1
+*.1R
+*.synctex.gz
