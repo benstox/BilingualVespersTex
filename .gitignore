@@ -6,6 +6,8 @@
 *.aux
 *.1
 *.1R
+*.2
+*.2R
 *.synctex.gz
 *(busy)
 .DS_Store
