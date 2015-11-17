@@ -8,6 +8,10 @@
 *.1R
 *.2
 *.2R
+*.3
+*.3R
+*.4
+*.4R
 *.synctex.gz
 *(busy)
 .DS_Store
