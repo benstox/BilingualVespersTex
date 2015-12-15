@@ -81,9 +81,9 @@
 % TRYING TO DEFINE THE FORMATTING OF
 % PSALM TEXT
 
-\newenvironment{psalmtext}{\leftskip 0.25in}{\vspace{2 mm}}
-\newenvironment{rubric}{\vspace{2 mm}\color{benred8} \itshape \leftskip 0in \setlength{\parindent}{0.25in}}{\vspace{2 mm}}
-\newenvironment{response}{\leftskip 0in \setlength{\parindent}{0in}}{\vspace{2 mm}}
+\newenvironment{psalmtext}{\leftskip 0.25in}{\vspace{1 mm}}
+\newenvironment{rubric}{\vspace{1 mm}\color{benred8} \itshape \leftskip 0in \setlength{\parindent}{0.25in}}{\vspace{1 mm}}
+\newenvironment{response}{\leftskip 0in \setlength{\parindent}{0in}}{\vspace{1 mm}}
 
 % REDUCES SUBSECTION SPACE
 \def\subspace{\vspace{-13 mm}}
@@ -171,14 +171,13 @@
 
 % FORMAT SUBSECTIONS - use titlesec package
 \titleformat{\subsection}{\centering\normalfont\color{benred8}}{}{1em}{}
-\titlespacing{\subsection}{0 mm}{0 mm}{0 mm}
+\titlespacing*{\subsection}{0pt}{0pt}{0.25pt}
+
+\titlespacing*{\section}{0pt}{0pt}{0pt}
 
 
 % SPACE BETWEEN Capitulum AND BIBLE VERSE
 \def\capitulumSpace{\hspace{20 mm}}
-
-
-
 
 
 
@@ -463,7 +462,11 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 
 \pend\pstart
 
-\subsection*{Psalmus 111.}
+{
+\centering
+\textcolor{benred8}{Psalmus 111.}
+
+}
 
 \pend\pstart
 
@@ -514,7 +517,11 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 
 \pend\pstart
 
-\subsection*{Psalmus 112.}
+{
+\centering
+\textcolor{benred8}{Psalmus 112.}
+
+}
 
 \pend\pstart
 
@@ -563,7 +570,11 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 
 \pend\pstart
 
-\subsection*{Psalmus 113.}
+{
+\centering
+\textcolor{benred8}{Psalmus 113.}
+
+}
 
 \pend\pstart
 
@@ -758,6 +769,9 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 
 \pend\pstart
 
+\setspaceafterinitial{0mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
+
 \myaboveinitial{I}
 \includescore{LatinVersion/DomHym-AdLib2.tex}
 
@@ -944,7 +958,11 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 
 \pend\pstart
 
-\subsection*{Psalm 111.}
+{
+\centering
+\textcolor{benred8}{Psalm 111.}
+
+}
 
 \pend\pstart
 
@@ -997,7 +1015,11 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 
 \pend\pstart
 
-\subsection*{Psalm 112.}
+{
+\centering
+\textcolor{benred8}{Psalm 112.}
+
+}
 
 \pend\pstart
 
@@ -1043,12 +1065,16 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \setspaceafterinitial{6.5mm plus 0em minus 0em}
 \setspacebeforeinitial{6.5mm plus 0em minus 0em}
 
-\myaboveinitial{5 \Abar\ T. Per.}
+\myaboveinitial{5 \Abar\ Per. T.}
 \includescore{EnglishVersion/DomAnt5-01.tex}
 
 \pend\pstart
 
-\subsection*{Psalm 113.}
+{
+\centering
+\textcolor{benred8}{Psalm 113.}
+
+}
 
 \pend\pstart
 
@@ -1251,7 +1277,7 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 \pend\pstart
 
 \setspaceafterinitial{0mm plus 0em minus 0em}
-\setspacebeforeinitial{0.8mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{I}
 \includescore{EnglishVersion/DomHym-AdLib2.tex}
@@ -1553,7 +1579,11 @@ Lector incipit :
 
 \pend\pstart
 
-\subsection*{Benedictio.}
+{
+\centering
+\textcolor{benred8}{Benedictio.}
+
+}
 
 \pend\pstart
 
@@ -1668,7 +1698,11 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 
 \pend\pstart
 
-\subsection*{Psalmus 4.}
+{
+\centering
+\textcolor{benred8}{Psalmus 4.}
+
+}
 
 \pend\pstart
 
@@ -1708,7 +1742,11 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \gresixstar\ et in s\'
 
 % COMPLETORIUM PSALMUS 30
 
-\subsection*{Psalmus 30.}
+{
+\centering
+\textcolor{benred8}{Psalmus 30.}
+
+}
 
 \pend\pstart
 
@@ -1740,7 +1778,11 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \gresixstar\ et in s\'
 
 % COMPLELTORIUM PSALMUS 90
 
-\subsection*{Psalmus 90.}
+{
+\centering
+\textcolor{benred8}{Psalmus 90.}
+
+}
 
 \pend\pstart
 
@@ -1792,7 +1834,11 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \gresixstar\ et in s\'
 
 % COMPLETORIUM PSALMUS 133
 
-\subsection*{Psalmus 133.}
+{
+\centering
+\textcolor{benred8}{Psalmus 133.}
+
+}
 
 \pend\pstart
 
@@ -1898,7 +1944,12 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 
 \pend\pstart
 
-\subsection*{Tonus in Tempore Quadragesim\ae.}
+%\subsection*{Tonus in Tempore Quadragesim\ae.}
+{
+\centering
+\textcolor{benred8}{Tonus in Tempore Quadragesim\ae.}
+
+}
 
 \pend\pstart
 
@@ -1943,7 +1994,12 @@ Tonus ut ad Vesperas ( p. \pageref{DominicaCapitulum} ).
 
 % COMPLINE RESPONSORIUM BREVE
 
-\subsection*{Responsorium Breve.}
+{
+\centering
+\textcolor{benred8}{Responsorium Breve.}
+
+}
+%\subsection*{Responsorium Breve.}
 \subsection*{Per Annum.}
 
 \pend\pstart
@@ -2049,7 +2105,11 @@ The lector begins:
 
 \pend\pstart
 
-\subsection*{Blessing.}
+{
+\centering
+\textcolor{benred8}{Blessing.}
+
+}
 
 \pend\pstart
 
@@ -2164,7 +2224,11 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 
 \pend\pstart
 
-\subsection*{Psalm 4.}
+{
+\centering
+\textcolor{benred8}{Psalm 4.}
+
+}
 
 \pend\pstart
 
@@ -2206,7 +2270,11 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \gresixstar\ world
 
 % COMPLINE PSALM 30
 
-\subsection*{Psalm 30.}
+{
+\centering
+\textcolor{benred8}{Psalm 30.}
+
+}
 
 \pend\pstart
 
@@ -2240,7 +2308,11 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \gresixstar\ world
 
 % COMPLINE PSALM 90
 
-\subsection*{Psalm 90.}
+{
+\centering
+\textcolor{benred8}{Psalm 90.}
+
+}
 
 \pend\pstart
 
@@ -2294,7 +2366,11 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \gresixstar\ world
 
 % COMPLINE PSALM 133
 
-\subsection*{Psalm 133.}
+{
+\centering
+\textcolor{benred8}{Psalm 133.}
+
+}
 
 \pend\pstart
 
@@ -2402,7 +2478,11 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 
 \pend\pstart
 
-\subsection*{Tone in Lent.}
+{
+\centering
+\textcolor{benred8}{Tone in Lent.}
+
+}
 
 \pend\pstart
 
@@ -2447,7 +2527,11 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 
 % COMPLINE RESPONSORIUM BREVE
 
-\subsection*{Short Responsory.}
+{
+\centering
+\textcolor{benred8}{Short Responsory.}
+
+}
 \subsection*{Throughout the Year.}
 
 \pend\pstart
@@ -2574,7 +2658,12 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 
 % COMPLETORIUM PRECES
 
-\subsection*{Preces.}
+%\subsection*{Preces.}
+{
+\centering
+\textcolor{benred8}{Preces.}
+
+}
 
 \pend\pstart
 
@@ -2754,7 +2843,12 @@ Deinde dicuntur secreto \textcolor{black}{\emph{Pater no\libertineGlyph{s_t}er}}
 
 % COMPLINE PRAYERS
 
-\subsection*{Prayers.}
+%\subsection*{Prayers.}
+{
+\centering
+\textcolor{benred8}{Prayers.}
+
+}
 
 \pend\pstart
 
@@ -2893,25 +2987,8 @@ Then the \textcolor{black}{\emph{Our Father}}, the \textcolor{black}{\emph{Hail 
 \end{pages}
 \Pages
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
 
@@ -3376,6 +3453,44 @@ A primis Vesperis Fe\libertineGlyph{s_t}i Ss.~Trinitatis usque ad Nonam Sabbati 
 \includescore{LatinVersion/SalveReginaSimple.tex}
 
 \vspace{2mm}
+
+\newpage
+
+% GUIDE TO SINGING IN ENGLISH
+
+\section*{Chanting the Psalms in English}
+
+\thispagestyle{plain}
+
+\begin{response}
+The English Psalm Tones used here are based as closely as possible on the Latin ones. The structure of the English language means that some modifications must be made however. In brief, each tone has a certain number of cadential notes or note groups at the middle and end of each verse. For example, Psalm 113 is sung to the Peregrine Tone. I have adapted the Latin Peregrine Tone into a six-note cadence in the middle of the verse and a four-note cadence at the end. The tenor notes have been separated from the cadences by a \pipe\ symbol. Note that the cadences may begin with the same note as the preceding tenor note, which is what happens in both half-verses here. Notice also that the last ``note'' of the end cadence is actual a sequence of two notes:
+
+\end{response}
+
+{\noinitial
+\includescore{EnglishVersion/ToneExplanation01.tex}
+
+}
+
+\begin{response}
+Bold text represents a syllable that uses up two notes of the cadence. Underlined text represents more than one syllable that share a single note of the cadence:
+
+\end{response}
+
+{\noinitial
+\includescore{EnglishVersion/ToneExplanation02.tex}
+
+}
+
+\begin{response}
+Bold and underlined text can overlap, as well:
+
+\end{response}
+
+{\noinitial
+\includescore{EnglishVersion/ToneExplanation03.tex}
+
+}
 
 \newpage
 
