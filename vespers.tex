@@ -81,9 +81,9 @@
 % TRYING TO DEFINE THE FORMATTING OF
 % PSALM TEXT
 
-\newenvironment{psalmtext}{\leftskip 0.25in}{\vspace{2 mm}}
-\newenvironment{rubric}{\vspace{2 mm}\color{benred8} \itshape \leftskip 0in \setlength{\parindent}{0.25in}}{\vspace{2 mm}}
-\newenvironment{response}{\leftskip 0in \setlength{\parindent}{0in}}{\vspace{2 mm}}
+\newenvironment{psalmtext}{\leftskip 0.25in}{\vspace{1 mm}}
+\newenvironment{rubric}{\vspace{1 mm}\color{benred8} \itshape \leftskip 0in \setlength{\parindent}{0.25in}}{\vspace{1 mm}}
+\newenvironment{response}{\leftskip 0in \setlength{\parindent}{0in}}{\vspace{1 mm}}
 
 % REDUCES SUBSECTION SPACE
 \def\subspace{\vspace{-13 mm}}
@@ -106,8 +106,14 @@
 % MAKES Repetitur : TEXT
 \def\repetitur{\textit{\textcolor{benred8}{Repetitur :}}}
 
+% MAKES Repeat: TEXT
+\def\repetitureng{\textit{\textcolor{benred8}{Repeat:}}}
+
 % MAKES secreto usque ad TEXT
 \def\secreto{\textit{\textcolor{benred8}{secreto usque ad}}}
+
+% MAKES secret until TEXT
+\def\secretoeng{\textit{\textcolor{benred8}{secret until}}}
 
 % MAKES T.P. TEXT
 \def\TemporePaschale{\textit{\textcolor{benred8}{T. P.}}}
@@ -165,14 +171,13 @@
 
 % FORMAT SUBSECTIONS - use titlesec package
 \titleformat{\subsection}{\centering\normalfont\color{benred8}}{}{1em}{}
-\titlespacing{\subsection}{0 mm}{0 mm}{0 mm}
+\titlespacing*{\subsection}{0pt}{0pt}{0.25pt}
+
+\titlespacing*{\section}{0pt}{0pt}{0pt}
 
 
 % SPACE BETWEEN Capitulum AND BIBLE VERSE
 \def\capitulumSpace{\hspace{20 mm}}
-
-
-
 
 
 
@@ -457,7 +462,11 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 
 \pend\pstart
 
-\subsection*{Psalmus 111.}
+{
+\centering
+\textcolor{benred8}{Psalmus 111.}
+
+}
 
 \pend\pstart
 
@@ -508,7 +517,11 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 
 \pend\pstart
 
-\subsection*{Psalmus 112.}
+{
+\centering
+\textcolor{benred8}{Psalmus 112.}
+
+}
 
 \pend\pstart
 
@@ -557,7 +570,11 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 
 \pend\pstart
 
-\subsection*{Psalmus 113.}
+{
+\centering
+\textcolor{benred8}{Psalmus 113.}
+
+}
 
 \pend\pstart
 
@@ -752,6 +769,9 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 
 \pend\pstart
 
+\setspaceafterinitial{0mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
+
 \myaboveinitial{I}
 \includescore{LatinVersion/DomHym-AdLib2.tex}
 
@@ -938,7 +958,11 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 
 \pend\pstart
 
-\subsection*{Psalm 111.}
+{
+\centering
+\textcolor{benred8}{Psalm 111.}
+
+}
 
 \pend\pstart
 
@@ -991,7 +1015,11 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 
 \pend\pstart
 
-\subsection*{Psalm 112.}
+{
+\centering
+\textcolor{benred8}{Psalm 112.}
+
+}
 
 \pend\pstart
 
@@ -1014,7 +1042,7 @@ Who is as the Lord our God, who \pipe\ \textbf{dwel}\uline{leth on} high: \gresi
 
 Raising up the \pipe\ needy \uline{from the} earth, \gresixstar\ and lifting up the poor \pipe\ out \uline{of the} dunghill:
 
-That he may \pipe\ place \uline{him with} princes, \gresixstar\ with the princes of \pipe\ \textbf{his} people.
+That he may \pipe\ place \uline{him with} princes, \gresixstar\ with the princes \pipe\ of his people.
 
 Who maketh a barren woman to \pipe\ \textbf{dwell} \uline{in a} house, \gresixstar\ the joyful \pipe\ mo\uline{ther of} children.
 
@@ -1037,12 +1065,16 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \setspaceafterinitial{6.5mm plus 0em minus 0em}
 \setspacebeforeinitial{6.5mm plus 0em minus 0em}
 
-\myaboveinitial{5 \Abar\ T. Per.}
+\myaboveinitial{5 \Abar\ Per. T.}
 \includescore{EnglishVersion/DomAnt5-01.tex}
 
 \pend\pstart
 
-\subsection*{Psalm 113.}
+{
+\centering
+\textcolor{benred8}{Psalm 113.}
+
+}
 
 \pend\pstart
 
@@ -1065,7 +1097,7 @@ What ailed thee, O thou \pipe\ sea, that thou didst \textbf{flee}: \gresixstar\ 
 
 Ye mountains, \pipe\ that ye skipped like \textbf{rams}, \gresixstar\ and ye hills, like \pipe\ \textbf{lambs} \uline{of the} flock?
 
-At the presence of the \pipe\ Lord the earth was \textbf{moved}, \gresixstar\ at the presence of the \uline{\textbf{God}~of} Jacob:
+At the presence of the \pipe\ Lord the earth was \textbf{moved}, \gresixstar\ at the presence of the \pipe\ \uline{\textbf{God}~of} Jacob:
 
 Who turned the \pipe\ rock \uline{into} pools of water, \gresixstar\ and the stony hill into \pipe\ foun\uline{tains of} waters.
 
@@ -1085,11 +1117,11 @@ They have hands and feel not: \gredagger\ they have \pipe\ feet and \textbf{walk
 
 Let them that make them be- \pipe\ come like unto \textbf{them}: \gresixstar\ and all \pipe\ such as \uline{trust in} them.
 
-The house of Israel hath \pipe\ \textbf{hoped} in the \textbf{Lord}: \gresixstar\ he is their helper \pipe\ and \uline{their~pro}tector.
+The house of Israel hath \pipe\ \textbf{hoped} in the \textbf{Lord}: \gresixstar\ he is their helper and \pipe\ their protector.
 
-The house of Aaron hath \pipe\ \textbf{hoped} in the \textbf{Lord}: \gresixstar\ he is their helper \pipe\ and \uline{their~pro}tector.
+The house of Aaron hath \pipe\ \textbf{hoped} in the \textbf{Lord}: \gresixstar\ he is their helper and \pipe\ their protector.
 
-They that fear the Lord have \pipe\ \textbf{hoped} in the \textbf{Lord}: \gresixstar\ he is their helper \pipe\ and \uline{their~pro}tector.
+They that fear the Lord have \pipe\ \textbf{hoped} in the \textbf{Lord}: \gresixstar\ he is their helper and \pipe\ their protector.
 
 The Lord \pipe\ hath been mindful of us, \gresixstar\ \pipe\ and hath blessed us.
 
@@ -1132,7 +1164,7 @@ The following Chapter \emph{\textcolor{black}{Blessed be the God}} is only sung 
 
 \subsection*{Chapter.\capitulumSpace \emph{2 Cor. 1, 3--4.}}
 
-\label{DominicaCapitulum}
+\label{SundayChapter}
 
 \pend\pstart
 
@@ -1245,7 +1277,7 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 \pend\pstart
 
 \setspaceafterinitial{0mm plus 0em minus 0em}
-\setspacebeforeinitial{0.8mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{I}
 \includescore{EnglishVersion/DomHym-AdLib2.tex}
@@ -1411,7 +1443,7 @@ The antiphon for the Sunday is sung.
 \begin{psalmtext}
 \lettrine[lhang=0.70]{M}{y} soul \grealtcross\ doth magnify the Lord.
 
-\hspace*{9.5 mm}And my spirit hath rejoiced \gresixstar\ in God by Saviour.
+\hspace*{9.5 mm}And my spirit hath rejoiced \gresixstar\ in God my Saviour.
 
 Because he hath regarded the humility of his handmaid; \gresixstar\ for behold from henceforth all generations shall call me blessed.
 
@@ -1475,8 +1507,8 @@ Throughout the year:
 
 \pend\pstart
 
-\setspaceafterinitial{2.2mm plus 0em minus 0em}
-\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+\setspaceafterinitial{0mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{I}
 \includescore{EnglishVersion/DomBenedicamus.tex}
@@ -1490,16 +1522,16 @@ During Advent and Lent:
 
 \pend\pstart
 
-\setspaceafterinitial{2.2mm plus 0em minus 0em}
-\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+\setspaceafterinitial{0mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
 \includescore{EnglishVersion/DomBenedicamusAdvLent.tex}
 
 \pend\pstart
 
-\setspaceafterinitial{2.2mm plus 0em minus 0em}
-\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+\setspaceafterinitial{0mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{\Vbar}
 \includescore{EnglishVersion/FideliumAnimae.tex}
@@ -1516,7 +1548,8 @@ If Compline follows Vespers, \emph{\textcolor{black}{Grant, Lord, a blessing}} i
 \end{pages}
 \Pages
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -5039,6 +5072,44 @@ A primis Vesperis Fe\libertineGlyph{s_t}i Ss.~Trinitatis usque ad Nonam Sabbati 
 \includescore{LatinVersion/SalveReginaSimple.tex}
 
 \vspace{2mm}
+
+\newpage
+
+% GUIDE TO SINGING IN ENGLISH
+
+\section*{Chanting the Psalms in English}
+
+\thispagestyle{plain}
+
+\begin{response}
+The English Psalm Tones used here are based as closely as possible on the Latin ones. The structure of the English language means that some modifications must be made however. In brief, each tone has a certain number of cadential notes or note groups at the middle and end of each verse. For example, Psalm 113 is sung to the Peregrine Tone. I have adapted the Latin Peregrine Tone into a six-note cadence in the middle of the verse and a four-note cadence at the end. The tenor notes have been separated from the cadences by a \pipe\ symbol. Note that the cadences may begin with the same note as the preceding tenor note, which is what happens in both half-verses here. Notice also that the last ``note'' of the end cadence is actually a sequence of two notes:
+
+\end{response}
+
+{\noinitial
+\includescore{EnglishVersion/ToneExplanation01.tex}
+
+}
+
+\begin{response}
+Bold text represents a syllable that uses up two notes of the cadence. Underlined text represents more than one syllable that share a single note of the cadence:
+
+\end{response}
+
+{\noinitial
+\includescore{EnglishVersion/ToneExplanation02.tex}
+
+}
+
+\begin{response}
+Bold and underlined text can overlap, as well:
+
+\end{response}
+
+{\noinitial
+\includescore{EnglishVersion/ToneExplanation03.tex}
+
+}
 
 \newpage
 
