@@ -100,6 +100,9 @@
 % MAKES vel : TEXT
 \def\vel{\textit{\textcolor{benred8}{vel :}}}
 
+% MAKES vel : TEXT
+\def\veleng{\textit{\textcolor{benred8}{or:}}}
+
 % MAKES deinde : TEXT
 \def\deinde{\textit{\textcolor{benred8}{deinde :}}}
 
@@ -1550,59 +1553,44 @@ If Compline follows Vespers, \emph{\textcolor{black}{Grant, Lord, a blessing}} i
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\newpage
+\begin{pages}
+\begin{Leftside}
+\firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
 
 % FERIA SECUNDA AD VESPERAS
 
-%\begin{center}\begin{Huge}\textsc{\textcolor{benred8}{Feria Secunda ad Vesperas}}\end{Huge}\end{center}
 \section*{Feria Secunda ad Vesperas}
+
+\pend\pstart
 
 \begin{center}Pater no\libertineGlyph{s_t}er. Ave Mar\'{i}a.\end{center}
 
-\chead{\color{benred8}\textsc{Feria II}}
+\pend\pstart
+
+\chead{\color{benred8}\textsc{Feria II \textemdash\ Monday}}
 \thispagestyle{plain}
 
 \begin{response}\lettrine{D}{e}us \grealtcross\ in adjut\'{o}rium meum int\'{e}nde. \Rbar\ D\'{o}mine ad adjuv\'{a}ndum me fe\libertineGlyph{s_t}\'{i}na. Gl\'{o}ria Patri, et F\'{i}lio, et Spir\'{i}tui San\libertineGlyph{c_t}o. Sicut erat in princ\'{i}pio, et nunc, et semper, et in s\'{\ae}cula s\ae cul\'{o}rum. Amen. Allel\'{u}ia. \vel\ Laus tibi D\'{o}mine Rex \ae t\'{e}rn\ae\ gl\'{o}ri\ae .
 
 \end{response}
 
-% FERIA II 1 ANT
+\pend\pstart
 
-\subsection*{}
+% FERIA II 1 ANT
 
 \setspaceafterinitial{7mm plus 0em minus 0em}
 \setspacebeforeinitial{7mm plus 0em minus 0em}
-
-%\greinitial{I\llap{\fontspec{LinLibertine_DRahBen}\color{benred8}I}\llap{\fontspec{LinLibertine_DRahBen4}\color{benyellow1}I}}%
 
 \def\greinitialformat#1{%
 {\fontsize{60}{60}\selectfont #1}%
 }
 
-\gresetfirstlineaboveinitial{\small \textsc{ \textbf{\textcolor{benred8}{1 \Abar\ I g 2}}}}{}%\small \textsc{ \textbf{\textcolor{benred8}{1 \Abar\ I g 2}}}}
+\myaboveinitial{1 \Abar\ I g 2}
 \includescore{LatinVersion/F2Ant1-01.tex}
+
+\pend\pstart
 
 \def\greinitialformat#1{%
 {\fontsize{43}{43}\selectfont #1}%
@@ -1610,10 +1598,13 @@ If Compline follows Vespers, \emph{\textcolor{black}{Grant, Lord, a blessing}} i
 
 \subsection*{Psalmus 114.}
 
+\pend\pstart
+
 {\noinitial
 \includescore{LatinVersion/F2FL1.tex}
 }
 
+\pend\pstart
 
 \begin{psalmtext}
 Quia inclinávit aurem \textbf{su}am \textbf{mi}hi : \gresixstar\ et in diébus meis \emph{invo}\textbf{cá}bo.
@@ -1638,16 +1629,111 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 
 \end{psalmtext}
 
+\pend\pstart
+
 {\noinitial
 \includescore{LatinVersion/F2Ant1-02.tex}
 
 }
 
-\vspace{2 mm}
+\pend\endnumbering
+\end{Leftside}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{Rightside}
+
+\firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
+
+% FERIA SECUNDA AD VESPERAS
+
+\section*{Monday at Vespers}
+
+\pend\pstart
+
+\begin{center}Our Father. Hail Mary.\end{center}
+
+\pend\pstart
+
+\begin{response}\lettrine{O}{} God, \grealtcross\ come to mine assistance. \Rbar\ O Lord, make haste to help me. Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen. Alleluia. \veleng\~Praise be to thee, O Lord, Kind of eternal glory.
+
+\end{response}
+
+\pend\pstart
+
+% FERIA II 1 ANT
+
+\setspaceafterinitial{0mm plus 0em minus 0em}
+\setspacebeforeinitial{0mm plus 0em minus 0em}
+
+\def\greinitialformat#1{%
+{\fontsize{60}{60}\selectfont #1}%
+}
+
+\myaboveinitial{1 \Abar\ I g 2}
+\includescore{EnglishVersion/F2Ant1-01.tex}
+
+\pend\pstart
+
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
+
+\subsection*{Psalm 114.}
+
+\pend\pstart
+
+{\noinitial
+\includescore{EnglishVersion/F2FL1.tex}
+}
+
+\pend\pstart
+
+\begin{psalmtext}
+Quia inclinávit aurem \textbf{su}am \textbf{mi}hi : \gresixstar\ et in diébus meis \emph{invo}\textbf{cá}bo.
+
+Circumdedérunt me do\textbf{ló}res \textbf{mor}tis : \gresixstar\ et perícula inférni \emph{inve}\textbf{né}runt me.
+
+Tribulatiónem et do\textbf{ló}rem in\textbf{vé}ni : \gresixstar\ et nomen Dómini \emph{invo}\textbf{cá}vi.
+
+O Dómine líbera ánimam meam : \gredagger\ miséricors Dómi\textbf{nus}, et \textbf{jus}tus, \gresixstar\ et Deus no\libertineGlyph{s_t}er \emph{mise}\textbf{ré}tur.
+
+Cu\libertineGlyph{s_t}ódiens \textbf{pár}vulos \textbf{Dó}minus : \gresixstar\ humiliátus sum, et \emph{libe}\textbf{rá}vit me.
+
+Convértere ánima mea in \textbf{ré}quiem \textbf{tu}am : \gresixstar\ quia Dóminus bene\emph{fécit} \textbf{ti}bi.
+
+Quia erípuit ánimam meam de morte : \gredagger\ óculos \textbf{me}os a \textbf{lác}rimis, \gresixstar\ pedes me\emph{os a} \textbf{lap}su.
+
+Pla\textbf{cé}bo \textbf{Dó}mino \gresixstar\ in regió\emph{ne vi}\textbf{vó}rum.
+
+Glória \textbf{Pat}ri, et \textbf{Fí}lio, \gresixstar\ et Spirí\emph{tui} \textbf{Sanc}to.
+
+Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et in sǽcula sæcu\emph{lórum}. \textbf{A}men.
+
+\end{psalmtext}
+
+\pend\pstart
+
+{\noinitial
+\includescore{EnglishVersion/F2Ant1-02.tex}
+
+}
+
+\pend\endnumbering
+\end{Rightside}
+\end{pages}
+\Pages
+
+
+
+
+
+
+
+
+
+
 
 % FERIA II 2 ANT
-
-\subsection*{}
 
 \setspaceafterinitial{6.5mm plus 0em minus 0em}
 \setspacebeforeinitial{6.5mm plus 0em minus 0em}
