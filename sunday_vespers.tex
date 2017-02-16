@@ -1,4 +1,4 @@
-% !TEX TS-program = lualatex
+% !TEX program = LuaLaTeX+se
 % !TEX encoding = UTF-8
 
 % This is a simple template for a LuaLaTeX document using gregorio scores.
@@ -13,7 +13,7 @@
 \usepackage{graphicx} % support the \includegraphics command and options
 \usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
 \geometry{a4paper} % or letterpaper (US) or a5paper or....
-\usepackage{gregoriotex} % for gregorio score inclusion
+\usepackage[autocompile]{gregoriotex} % for gregorio score inclusion
 \usepackage{fullpage} % to reduce the margins
 \usepackage{titlesec}
 %\usepackage{bold-extra}
@@ -24,27 +24,14 @@
 \setlength{\ULdepth}{2pt}
 
 % dual language parallel text thing
-\usepackage{eledmac}
-\usepackage{eledpar}
+\usepackage{reledmac}
+\usepackage{reledpar}
 
 \usepackage{fancyhdr}
-\pagestyle{fancy}
-\lhead{}
-\chead{\color{benblue1}{\gregoriosymbolfont  \char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76}} 
-\rhead{}
-\lfoot{}
-\cfoot{\color{benblue1}{\gregoriosymbolfont  \char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76}\\ \color{black}\thepage}
-\rfoot{}
-\renewcommand{\headrulewidth}{0pt}
+
 
  
-%% No space for initial letter
-\def\noinitial{%
-\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{}}}}{\textcolor{benred8}{\small \textsc{\textbf{}}}}
-\setspaceafterinitial{0pt plus 0em minus 0em}%
-\setspacebeforeinitial{0pt plus 0em minus 0em}%
-\relax %
-}
+
 
 %the bilingual stuff seems to necessitate this stuff being reset each time;
 %without this function the initial letter ends up much smaller and the red antiphon number
@@ -77,6 +64,26 @@
 % YELLOWS
 \definecolor{benyellow1}{HTML}{FFD435}
 \definecolor{benyellow2}{HTML}{7C6F3B}
+
+
+%% No space for initial letter
+\def\noinitial{%
+\gresetfirstlineaboveinitial{\textcolor{benred8}{\small \textsc{\textbf{}}}}{\textcolor{benred8}{\small \textsc{\textbf{}}}}
+\setspaceafterinitial{0pt plus 0em minus 0em}%
+\setspacebeforeinitial{0pt plus 0em minus 0em}%
+\relax %
+}
+
+
+\pagestyle{fancy}
+\lhead{}
+\chead{\color{benblue1}{\gregoriosymbolfont  \char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76}} 
+\rhead{}
+\lfoot{}
+\cfoot{\color{benblue1}{\gregoriosymbolfont  \char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76\char76}\\ \color{black}\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
 
 % TRYING TO DEFINE THE FORMATTING OF
 % PSALM TEXT
@@ -351,7 +358,7 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 }
 
 {\gresetbiginitial
-\includescore{LatinVersion/DomAnt1-01_plain_d.tex}
+\includescore{LatinVersion/Dominica/DomAnt1-01_plain_d.tex}
 
 }
 
@@ -389,7 +396,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomAnt1-02.tex}
+\includescore{LatinVersion/Dominica/DomAnt1-02.tex}
 }
 
 \pend\pstart
@@ -400,7 +407,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 \setspacebeforeinitial{6mm plus 0em minus 0em}
 
 \myaboveinitial{2 \Abar\ IV g}
-\includescore{LatinVersion/DomAnt2-01.tex}
+\includescore{LatinVersion/Dominica/DomAnt2-01.tex}
 
 \pend\pstart
 
@@ -413,7 +420,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomFL2.tex}
+\includescore{LatinVersion/Dominica/DomFL2.tex}
 
 }
 
@@ -447,7 +454,7 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomAnt2-02.tex}
+\includescore{LatinVersion/Dominica/DomAnt2-02.tex}
 }
 
 \pend\pstart
@@ -458,7 +465,7 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 \setspacebeforeinitial{7mm plus 0em minus 0em}
 
 \myaboveinitial{3 \Abar\ IV a}
-\includescore{LatinVersion/DomAnt3-01.tex}
+\includescore{LatinVersion/Dominica/DomAnt3-01.tex}
 
 \pend\pstart
 
@@ -471,7 +478,7 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomFL3.tex}
+\includescore{LatinVersion/Dominica/DomFL3.tex}
 }
 
 \pend\pstart
@@ -502,7 +509,7 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomAnt3-02.tex}
+\includescore{LatinVersion/Dominica/DomAnt3-02.tex}
 }
 
 \pend\pstart
@@ -513,7 +520,7 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 \setspacebeforeinitial{7mm plus 0em minus 0em}
 
 \myaboveinitial{4 \Abar\ VII c}
-\includescore{LatinVersion/DomAnt4-01.tex}
+\includescore{LatinVersion/Dominica/DomAnt4-01.tex}
 
 \pend\pstart
 
@@ -526,7 +533,7 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \gresixstar\ et in
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomFL4.tex}
+\includescore{LatinVersion/Dominica/DomFL4.tex}
 }
 
 \pend\pstart
@@ -555,7 +562,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomAnt4-02.tex}
+\includescore{LatinVersion/Dominica/DomAnt4-02.tex}
 }
 
 \pend\pstart
@@ -566,7 +573,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 \setspacebeforeinitial{6.5mm plus 0em minus 0em}
 
 \myaboveinitial{5 \Abar\ T. Per.}
-\includescore{LatinVersion/DomAnt5-01.tex}
+\includescore{LatinVersion/Dominica/DomAnt5-01.tex}
 
 \pend\pstart
 
@@ -579,7 +586,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \gresixstar\ et 
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomFL5.tex}
+\includescore{LatinVersion/Dominica/DomFL5.tex}
 }
 
 \pend\pstart
@@ -646,7 +653,7 @@ Sicut erat in princípio, \emph{et nunc, et} \textbf{sem}per, \gresixstar\ et in
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/DomAnt5-02.tex}
+\includescore{LatinVersion/Dominica/DomAnt5-02.tex}
 }
 
 \pend\pstart
@@ -695,7 +702,7 @@ Sequens tonus canitur in Dominicis po\libertineGlyph{s_t} Epiphaniam a die 14 Ja
 \setspacebeforeinitial{1mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{LatinVersion/DomHym-Hieme.tex}
+\includescore{LatinVersion/Dominica/DomHym-Hieme.tex}
 
 \pend\pstart
 
@@ -732,7 +739,7 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 \pend\pstart
 
 \myaboveinitial{VIII}
-\includescore{LatinVersion/DomHym-Aestate.tex}
+\includescore{LatinVersion/Dominica/DomHym-Aestate.tex}
 
 \pend\pstart
 
@@ -751,7 +758,7 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 \pend\pstart
 
 \myaboveinitial{VIII}
-\includescore{LatinVersion/DomHym-AdLib1.tex}
+\includescore{LatinVersion/Dominica/DomHym-AdLib1.tex}
 
 \pend\pstart
 
@@ -773,7 +780,7 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 \setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{I}
-\includescore{LatinVersion/DomHym-AdLib2.tex}
+\includescore{LatinVersion/Dominica/DomHym-AdLib2.tex}
 
 \pend\pstart
 
@@ -843,7 +850,7 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 }
 
 {\gresetbiginitial
-\includescore{EnglishVersion/DomAnt1-01_plain_d.tex}
+\includescore{EnglishVersion/Dominica/DomAnt1-01_plain_d.tex}
 
 }
 
@@ -883,7 +890,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomAnt1-02.tex}
+\includescore{EnglishVersion/Dominica/DomAnt1-02.tex}
 }
 
 \pend\pstart
@@ -894,7 +901,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \setspacebeforeinitial{6mm plus 0em minus 0em}
 
 \myaboveinitial{2 \Abar\ IV g}
-\includescore{EnglishVersion/DomAnt2-01.tex}
+\includescore{EnglishVersion/Dominica/DomAnt2-01.tex}
 
 \pend\pstart
 
@@ -907,7 +914,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomFL2.tex}
+\includescore{EnglishVersion/Dominica/DomFL2.tex}
 
 }
 
@@ -943,7 +950,7 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomAnt2-02.tex}
+\includescore{EnglishVersion/Dominica/DomAnt2-02.tex}
 }
 
 \pend\pstart
@@ -954,7 +961,7 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 \setspacebeforeinitial{5mm plus 0em minus 0em}
 
 \myaboveinitial{3 \Abar\ IV a}
-\includescore{EnglishVersion/DomAnt3-01.tex}
+\includescore{EnglishVersion/Dominica/DomAnt3-01.tex}
 
 \pend\pstart
 
@@ -967,7 +974,7 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomFL3.tex}
+\includescore{EnglishVersion/Dominica/DomFL3.tex}
 }
 
 \pend\pstart
@@ -1000,7 +1007,7 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomAnt3-02.tex}
+\includescore{EnglishVersion/Dominica/DomAnt3-02.tex}
 }
 
 \pend\pstart
@@ -1011,7 +1018,7 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 \setspacebeforeinitial{7mm plus 0em minus 0em}
 
 \myaboveinitial{4 \Abar\ VII c}
-\includescore{EnglishVersion/DomAnt4-01.tex}
+\includescore{EnglishVersion/Dominica/DomAnt4-01.tex}
 
 \pend\pstart
 
@@ -1024,7 +1031,7 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomFL4.tex}
+\includescore{EnglishVersion/Dominica/DomFL4.tex}
 }
 
 \pend\pstart
@@ -1055,7 +1062,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomAnt4-02.tex}
+\includescore{EnglishVersion/Dominica/DomAnt4-02.tex}
 }
 
 \pend\pstart
@@ -1066,7 +1073,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \setspacebeforeinitial{6.5mm plus 0em minus 0em}
 
 \myaboveinitial{5 \Abar\ Per. T.}
-\includescore{EnglishVersion/DomAnt5-01.tex}
+\includescore{EnglishVersion/Dominica/DomAnt5-01.tex}
 
 \pend\pstart
 
@@ -1079,7 +1086,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomFL5.tex}
+\includescore{EnglishVersion/Dominica/DomFL5.tex}
 }
 
 \pend\pstart
@@ -1148,7 +1155,7 @@ As it was in the beginning, is \pipe\ now, and ever shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/DomAnt5-02.tex}
+\includescore{EnglishVersion/Dominica/DomAnt5-02.tex}
 }
 
 \pend\pstart
@@ -1196,7 +1203,7 @@ The following tone is sung on Sundays after Epiphany between and including the 1
 \setspacebeforeinitial{0.8mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{EnglishVersion/DomHym-Hieme.tex}
+\includescore{EnglishVersion/Dominica/DomHym-Hieme.tex}
 
 \pend\pstart
 
@@ -1236,7 +1243,7 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 \setspacebeforeinitial{0.8mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{EnglishVersion/DomHym-Aestate.tex}
+\includescore{EnglishVersion/Dominica/DomHym-Aestate.tex}
 
 \pend\pstart
 
@@ -1258,7 +1265,7 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 \setspacebeforeinitial{0.8mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{EnglishVersion/DomHym-AdLib1.tex}
+\includescore{EnglishVersion/Dominica/DomHym-AdLib1.tex}
 
 \pend\pstart
 
@@ -1280,7 +1287,7 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 \setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{I}
-\includescore{EnglishVersion/DomHym-AdLib2.tex}
+\includescore{EnglishVersion/Dominica/DomHym-AdLib2.tex}
 
 \pend\pstart
 
@@ -1387,7 +1394,7 @@ Per annum :
 \setspacebeforeinitial{2.2mm plus 0em minus 0em}
 
 \myaboveinitial{I}
-\includescore{LatinVersion/DomBenedicamus.tex}
+\includescore{LatinVersion/Dominica/DomBenedicamus.tex}
 
 \pend\pstart
 
@@ -1402,7 +1409,7 @@ Tempore Adventus et Quadragesim\ae\ :
 \setspacebeforeinitial{2.2mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{LatinVersion/DomBenedicamusAdvLent.tex}
+\includescore{LatinVersion/Dominica/DomBenedicamusAdvLent.tex}
 
 \pend\pstart
 
@@ -1511,7 +1518,7 @@ Throughout the year:
 \setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{I}
-\includescore{EnglishVersion/DomBenedicamus.tex}
+\includescore{EnglishVersion/Dominica/DomBenedicamus.tex}
 
 \pend\pstart
 
@@ -1526,7 +1533,7 @@ During Advent and Lent:
 \setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{EnglishVersion/DomBenedicamusAdvLent.tex}
+\includescore{EnglishVersion/Dominica/DomBenedicamusAdvLent.tex}
 
 \pend\pstart
 
@@ -1588,7 +1595,7 @@ Lector incipit :
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/NoctemQuietam.tex}
+\includescore{LatinVersion/Completorium/NoctemQuietam.tex}
 
 }
 
@@ -1694,7 +1701,7 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 \setspacebeforeinitial{3.5mm plus 0em minus 0em}
 
 \myaboveinitial{\Abar\ VIII G}
-\includescore{LatinVersion/CompAnt-01.tex}
+\includescore{LatinVersion/Completorium/CompAnt-01.tex}
 
 \pend\pstart
 
@@ -1707,7 +1714,7 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/CompFL1.tex}
+\includescore{LatinVersion/Completorium/CompFL1.tex}
 
 }
 
@@ -1751,7 +1758,7 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \gresixstar\ et in s\'
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/CompFL2.tex}
+\includescore{LatinVersion/Completorium/CompFL2.tex}
 
 }
 
@@ -1787,7 +1794,7 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \gresixstar\ et in s\'
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/CompFL3.tex}
+\includescore{LatinVersion/Completorium/CompFL3.tex}
 
 }
 
@@ -1843,7 +1850,7 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \gresixstar\ et in s\'
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/CompFL4.tex}
+\includescore{LatinVersion/Completorium/CompFL4.tex}
 
 }
 
@@ -1865,7 +1872,7 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \gresixstar\ et in s\'
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/CompAnt-02.tex}
+\includescore{LatinVersion/Completorium/CompAnt-02.tex}
 
 }
 
@@ -1892,7 +1899,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{LatinVersion/TeLucisPAFeriis.tex}
+\includescore{LatinVersion/Completorium/TeLucisPAFeriis.tex}
 
 \pend\pstart
 
@@ -1904,7 +1911,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{LatinVersion/TeLucisPADominicis.tex}
+\includescore{LatinVersion/Completorium/TeLucisPADominicis.tex}
 
 \pend\pstart
 
@@ -1916,7 +1923,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{LatinVersion/TeLucisPASimplex.tex}
+\includescore{LatinVersion/Completorium/TeLucisPASimplex.tex}
 
 \pend\pstart
 
@@ -1928,7 +1935,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{LatinVersion/TeLucisPADuplex.tex}
+\includescore{LatinVersion/Completorium/TeLucisPADuplex.tex}
 
 \pend\pstart
 
@@ -1940,7 +1947,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{LatinVersion/TeLucisAdvent.tex}
+\includescore{LatinVersion/Completorium/TeLucisAdvent.tex}
 
 \pend\pstart
 
@@ -1957,7 +1964,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{LatinVersion/TeLucisLent.tex}
+\includescore{LatinVersion/Completorium/TeLucisLent.tex}
 
 \pend\pstart
 
@@ -1969,7 +1976,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{LatinVersion/TeLucisBMVCorpChrist.tex}
+\includescore{LatinVersion/Completorium/TeLucisBMVCorpChrist.tex}
 
 \pend\pstart
 
@@ -2008,7 +2015,7 @@ Tonus ut ad Vesperas ( p. \pageref{DominicaCapitulum} ).
 \setspacebeforeinitial{2.5mm plus 0em minus 0em}
 
 \myaboveinitial{VI}
-\includescore{LatinVersion/CompRespPA.tex}
+\includescore{LatinVersion/Completorium/CompRespPA.tex}
 
 \pend\pstart
 
@@ -2034,7 +2041,7 @@ Tonus ut ad Vesperas ( p. \pageref{DominicaCapitulum} ).
 \setspacebeforeinitial{2.5mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{LatinVersion/CompRespAdvent.tex}
+\includescore{LatinVersion/Completorium/CompRespAdvent.tex}
 
 \pend\pstart
 
@@ -2060,7 +2067,7 @@ Tonus ut ad Vesperas ( p. \pageref{DominicaCapitulum} ).
 \setspacebeforeinitial{2.5mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{LatinVersion/CompRespLent.tex}
+\includescore{LatinVersion/Completorium/CompRespLent.tex}
 
 
 \pend\pstart
@@ -2114,7 +2121,7 @@ The lector begins:
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/NoctemQuietam.tex}
+\includescore{EnglishVersion/Completorium/NoctemQuietam.tex}
 
 }
 
@@ -2220,7 +2227,7 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 \setspacebeforeinitial{3.5mm plus 0em minus 0em}
 
 \myaboveinitial{\Abar\ VIII G}
-\includescore{EnglishVersion/CompAnt-01.tex}
+\includescore{EnglishVersion/Completorium/CompAnt-01.tex}
 
 \pend\pstart
 
@@ -2233,7 +2240,7 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/CompFL1.tex}
+\includescore{EnglishVersion/Completorium/CompFL1.tex}
 
 }
 
@@ -2279,7 +2286,7 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/CompFL2.tex}
+\includescore{EnglishVersion/Completorium/CompFL2.tex}
 
 }
 
@@ -2317,7 +2324,7 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/CompFL3.tex}
+\includescore{EnglishVersion/Completorium/CompFL3.tex}
 
 }
 
@@ -2375,7 +2382,7 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/CompFL4.tex}
+\includescore{EnglishVersion/Completorium/CompFL4.tex}
 
 }
 
@@ -2399,7 +2406,7 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \gresixstar\ world
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/CompAnt-02.tex}
+\includescore{EnglishVersion/Completorium/CompAnt-02.tex}
 
 }
 
@@ -2426,7 +2433,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{EnglishVersion/TeLucisPAFeriis.tex}
+\includescore{EnglishVersion/Completorium/TeLucisPAFeriis.tex}
 
 \pend\pstart
 
@@ -2438,7 +2445,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{EnglishVersion/TeLucisPADominicis.tex}
+\includescore{EnglishVersion/Completorium/TeLucisPADominicis.tex}
 
 \pend\pstart
 
@@ -2450,7 +2457,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{VIII}
-\includescore{EnglishVersion/TeLucisPASimplex.tex}
+\includescore{EnglishVersion/Completorium/TeLucisPASimplex.tex}
 
 \pend\pstart
 
@@ -2462,7 +2469,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{EnglishVersion/TeLucisPADuplex.tex}
+\includescore{EnglishVersion/Completorium/TeLucisPADuplex.tex}
 
 \pend\pstart
 
@@ -2474,7 +2481,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{EnglishVersion/TeLucisAdvent.tex}
+\includescore{EnglishVersion/Completorium/TeLucisAdvent.tex}
 
 \pend\pstart
 
@@ -2490,7 +2497,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{EnglishVersion/TeLucisLent.tex}
+\includescore{EnglishVersion/Completorium/TeLucisLent.tex}
 
 \pend\pstart
 
@@ -2502,7 +2509,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 \setspacebeforeinitial{3mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{EnglishVersion/TeLucisBMVCorpChrist.tex}
+\includescore{EnglishVersion/Completorium/TeLucisBMVCorpChrist.tex}
 
 \pend\pstart
 
@@ -2540,7 +2547,7 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 \setspacebeforeinitial{2.5mm plus 0em minus 0em}
 
 \myaboveinitial{VI}
-\includescore{EnglishVersion/CompRespPA.tex}
+\includescore{EnglishVersion/Completorium/CompRespPA.tex}
 
 \pend\pstart
 
@@ -2566,7 +2573,7 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 \setspacebeforeinitial{2.5mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{EnglishVersion/CompRespAdvent.tex}
+\includescore{EnglishVersion/Completorium/CompRespAdvent.tex}
 
 \pend\pstart
 
@@ -2592,7 +2599,7 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 \setspacebeforeinitial{2.5mm plus 0em minus 0em}
 
 \myaboveinitial{IV}
-\includescore{EnglishVersion/CompRespLent.tex}
+\includescore{EnglishVersion/Completorium/CompRespLent.tex}
 
 \pend\pstart
 
@@ -2630,7 +2637,7 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 \setspacebeforeinitial{2.8mm plus 0em minus 0em}
 
 \myaboveinitial{III a}
-\includescore{LatinVersion/CompNuncDimAnt-01.tex}
+\includescore{LatinVersion/Completorium/CompNuncDimAnt-01.tex}
 
 \pend\pstart
 
@@ -2650,7 +2657,7 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 \pend\pstart
 
 {\noinitial
-\includescore{LatinVersion/CompNuncDimAnt-02.tex}
+\includescore{LatinVersion/Completorium/CompNuncDimAnt-02.tex}
 
 }
 
@@ -2762,7 +2769,7 @@ Oratio canitur in Tono Simplici, ut in p.~\pageref{OratioSimplex}.
 \setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{LatinVersion/CompBenedicamus.tex}
+\includescore{LatinVersion/Completorium/CompBenedicamus.tex}
 
 \pend\pstart
 
@@ -2815,7 +2822,7 @@ Deinde dicuntur secreto \textcolor{black}{\emph{Pater no\libertineGlyph{s_t}er}}
 \setspacebeforeinitial{2.8mm plus 0em minus 0em}
 
 \myaboveinitial{III a}
-\includescore{EnglishVersion/CompNuncDimAnt-01.tex}
+\includescore{EnglishVersion/Completorium/CompNuncDimAnt-01.tex}
 
 \pend\pstart
 
@@ -2835,7 +2842,7 @@ Deinde dicuntur secreto \textcolor{black}{\emph{Pater no\libertineGlyph{s_t}er}}
 \pend\pstart
 
 {\noinitial
-\includescore{EnglishVersion/CompNuncDimAnt-02.tex}
+\includescore{EnglishVersion/Completorium/CompNuncDimAnt-02.tex}
 
 }
 
@@ -2947,7 +2954,7 @@ The Oration is sung to the Simple Tone, as on p.~\pageref{OratioSimplex}.
 \setspacebeforeinitial{0mm plus 0em minus 0em}
 
 \myaboveinitial{II}
-\includescore{EnglishVersion/CompBenedicamus.tex}
+\includescore{EnglishVersion/Completorium/CompBenedicamus.tex}
 
 \pend\pstart
 

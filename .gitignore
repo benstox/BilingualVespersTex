@@ -3,6 +3,12 @@
 *~
 *.gaux
 *.end
+*.Aend
+*.Bend
+*.Cend
+*.Dend
+*.Eend
+*.eledsec1
 *.aux
 *.1
 *.1R
