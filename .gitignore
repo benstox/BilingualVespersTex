@@ -12,7 +12,7 @@
 *.Cend
 *.Dend
 *.Eend
-*.eledsec1
+*.eledsec*
 *.aux
 *.1
 *.1R
