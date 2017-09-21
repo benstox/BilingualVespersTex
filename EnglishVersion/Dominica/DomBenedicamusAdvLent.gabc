@@ -1,33 +1,4 @@
 %%
-(c4) LET([ev:%
-\greglyph{\char 1027}{e}{i}{0}{}{%
-\raisebox{10pt}{\grevepisemus{g}{18}}%
-}%
-\greendofglyph{1}%
-\greglyph{\char 23}{i}{h}{0}{}{}%
-\greendofglyph{9}%
-\greglyph{\char 19}{h}{g}{6}{}{%
-\grevepisemus{g}{12}%
-}%
-\greendofglyph{3}%
-\greglyph{\char 19}{g}{g}{6}{}{}%
-]%
-) us(gh) bless(gvFE) the(de) Lord.(e.) <sp>R/</sp>(::)
+(c4) LET(eh'!ivH'G) us(gh) bless(gvFE) the(de) Lord.(e.) <sp>R/</sp>(::)
 
-%De(eh'!ivH'G)o(gh) grá(gvFE)ti(de)as.(e.) (::)
-
-Thanks([ev:%
-\greglyph{\char 1027}{e}{i}{0}{}{%
-\raisebox{10pt}{\grevepisemus{g}{18}}%
-}%
-\greendofglyph{1}%
-\greglyph{\char 23}{i}{h}{0}{}{}%
-\greendofglyph{9}%
-\greglyph{\char 19}{h}{g}{6}{}{%
-\grevepisemus{g}{12}%
-}%
-\greendofglyph{3}%
-\greglyph{\char 19}{g}{g}{6}{}{}%
-]%
-//gh) be(gvFE) to(de) God.(e.) (::)
-
+Thanks(eh'!ivH'G//gh) be(gvFE) to(de) God.(e.) (::)

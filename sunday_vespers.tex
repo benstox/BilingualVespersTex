@@ -99,6 +99,12 @@
 % MAKES secret until TEXT
 \def\secretoeng{\textit{\textcolor{benred8}{secret until}}}
 
+% MAKES T.P. TEXT
+\def\TemporePaschale{\textit{\textcolor{benred8}{T. P.}}}
+
+% MAKES RED PIPE FOR ENGLISH CADENCES
+\def\pipe{\textcolor{benred8}{\textdoublepipe}}
+
 % MAKES ALL \GreStars RED
 \let\OldGreStar\GreStar
 \renewcommand{\GreStar}{\textcolor{benred8}{\OldGreStar}}
@@ -299,7 +305,7 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 \pend\pstart
 
 \begin{psalmtext}
-Donec ponam ini\textbf{mí}cos \textbf{tu}os, \GreStar\ scabéllum \textbf{pe}dum tu\textbf{ó}rum.
+% Donec ponam ini\textbf{mí}cos \textbf{tu}os, \GreStar\ scabéllum \textbf{pe}dum tu\textbf{ó}rum.
 
 Virgam virtútis tuæ emíttet Dómi\textbf{nus} ex \textbf{Si}on : \GreStar\ domináre in médio inimi\textbf{có}rum tu\textbf{ó}rum.
 
@@ -1033,7 +1039,7 @@ The following tone is sung on Sundays after Epiphany between and including the 1
 
 \end{rubric}
 
-\pend\pstarts
+\pend\pstart
 
 \greannotation{IV}
 \gregorioscore[a]{EnglishVersion/Dominica/DomHym-Hieme.gtex}
