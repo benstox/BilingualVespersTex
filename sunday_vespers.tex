@@ -135,16 +135,19 @@
 
 % FORMAT SECTIONS - use titlesec package
 \titleformat{\section}{\centering\scshape\Huge\color{benred8}}{}{1em}{}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
 
-% REDUCES SUBSECTION SPACE
-%\def\subspace{\vspace{-13 mm}}
-%\def\subspace{\vspace{0 mm}}
-\titleformat{\subsection}{\normalfont}{}{1em}{}[\vspace{-5 mm}]
-\titlespacing{\subsection}{0 mm}{0 mm}{0 mm}
+% FORMAT SUBSECTIONS - use titlesec package
+\titleformat{\subsection}{\centering\normalfont\color{benred8}}{}{1em}{}
+\titlespacing*{\subsection}{0pt}{0pt}{0.25pt}
 
-% FORMAT SUBSUBSECTIONS - use titlesec package
-\titleformat{\subsubsection}{\centering\normalfont\color{benred8}}{}{1em}{}
-\titlespacing{\subsubsection}{0 mm}{0 mm}{0 mm}
+% RED TITLE e.g Psalm number, "Oratio", "Capitulum", etc.
+\newcommand{\redTitle}[1]{{
+\centering
+\textcolor{benred8}{#1}
+
+}}
+
 
 % SPACE BETWEEN Capitulum AND BIBLE VERSE
 \def\capitulumSpace{\hspace{20 mm}}
@@ -152,6 +155,11 @@
 % ANNOTATION STYLE
 \grechangestyle{annotation}{\small\scshape\bfseries\color{benred8}}
 \grechangedim{annotationraise}{-3 mm}{scalable}
+
+% Sicut incensum R/ indent, e.g. versicle after first hymn at Sunday Vespers
+\newlength{\sicutIncensumIndent}
+\setlength{\sicutIncensumIndent}{2.3mm}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -257,7 +265,7 @@ SIGNIS RHYTHMICIS ORNATUM
 
 \begin{center}\begin{Huge}\textsc{\textcolor{benred8}{Dominica ad Vesperas}}\end{Huge}\end{center}
 
-\vspace{2mm}
+% \vspace{2mm}
 
 \pend\pstart
 
@@ -298,11 +306,7 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalmus 109.}
-
-}
+\redTitle{Psalmus 109.}
 
 \pend\pstart
 
@@ -340,11 +344,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \GreStar\ et in 
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalmus 110.}
-
-}
+\redTitle{Psalmus 110.}
 
 \pend\pstart
 
@@ -390,11 +390,7 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \GreStar\ et in s�
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalmus 111.}
-
-}
+\redTitle{Psalmus 111.}
 
 \pend\pstart
 
@@ -432,16 +428,15 @@ Sicut erat in princípio, et \emph{nunc, et} \textbf{sem}per, \GreStar\ et in s�
 \pend\pstart
 
 %% DOMINICA 4 ANT.
+
+\vspace{2mm}
+
 \greannotation{4 {\upshape\Abar} VII c}
 \gregorioscore[a]{LatinVersion/Dominica/DomAnt4-01.gtex}
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalmus 112.}
-
-}
+\redTitle{Psalmus 112.}
 
 \pend\pstart
 
@@ -483,11 +478,7 @@ Sicut erat in princípio, et \textbf{nunc}, et \textbf{sem}per, \GreStar\ et in 
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalmus 113.}
-
-}
+\redTitle{Psalmus 113.}
 
 \pend\pstart
 
@@ -569,11 +560,13 @@ Sequens Capitulum \emph{\textcolor{black}{Bened\'{i}\libertineGlyph{c_t}us Deus}
 
 % DOMINICA CAPITULUM
 
-\subsection*{Capitulum.\capitulumSpace \emph{2 Cor. 1, 3--4.}}
+\redTitle{Capitulum.\capitulumSpace \emph{2 Cor. 1, 3--4.}}
 
 \label{DominicaCapitulum}
 
 \pend\pstart
+
+\vspace{-5mm}
 
 \gregorioscore[a]{LatinVersion/CapitulumBenedictus.gtex}
 
@@ -585,7 +578,7 @@ Sequens Capitulum \emph{\textcolor{black}{Bened\'{i}\libertineGlyph{c_t}us Deus}
 
 \newpage
 
-\subsection*{Hymnus.\\Tonus in Hieme.}
+\redTitle{Hymnus.\\Tonus in Hieme.}
 
 \pend\pstart
 
@@ -614,7 +607,7 @@ Quando fit Commemoratio B. M. V., canitur doxologia \emph{\textcolor{black}{Gl\'
 }
 
 \begin{response}
-\hspace{1.0 mm}\Rbar\ Sicut \hspace{1.1mm} inc\'{e}nsum \hspace{1.1mm} in \hspace{1.1mm} consp\'{e}\libertineGlyph{c_t}u \hspace{1.2mm} tu- o.
+\hspace{\sicutIncensumIndent}\Rbar\ Sicut \hspace{1.1mm} inc\'{e}nsum \hspace{1.1mm} in \hspace{1.1mm} consp\'{e}\libertineGlyph{c_t}u \hspace{1.2mm} tu- o.
 
 \end{response}
 
@@ -622,7 +615,7 @@ Quando fit Commemoratio B. M. V., canitur doxologia \emph{\textcolor{black}{Gl\'
 
 % DOMINICA HYMNUS AESTATE
 
-\subsection*{Tonus in \AE \libertineGlyph{s_t}ate.}
+\redTitle{Tonus in \AE \libertineGlyph{s_t}ate.}
 
 \pend\pstart
 
@@ -648,7 +641,7 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 
 % DOMINICA HYMNUS AD LIB 1
 
-\subsection*{Tonus ad libitum I.}
+\redTitle{Tonus ad libitum I.}
 
 \pend\pstart
 
@@ -667,7 +660,7 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 
 % DOMINICA HYMNUS AD LIB 2
 
-\subsection*{Tonus ad libitum II.}
+\redTitle{Tonus ad libitum II.}
 
 \pend\pstart
 
@@ -696,9 +689,9 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 
 \begin{center}\begin{Huge}\textsc{\textcolor{benred8}{Sunday at Vespers}}\end{Huge}\end{center}
 
-\vspace{2mm}
-
 \pend\pstart
+
+\vspace{2mm}
 
 \begin{center}Our Father. Hail Mary.\end{center}
 
@@ -735,11 +728,7 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalm 109.}
-
-}
+\redTitle{Psalm 109.}
 
 \pend\pstart
 
@@ -779,11 +768,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \GreStar\ world wi
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalm 110.}
-
-}
+\redTitle{Psalm 110.}
 
 \pend\pstart
 
@@ -831,11 +816,7 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \GreStar\ world wi
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalm 111.}
-
-}
+\redTitle{Psalm 111.}
 
 \pend\pstart
 
@@ -877,16 +858,14 @@ As it was in the beginning, is now, \pipe\ and ever shall be, \GreStar\ world \p
 
 %% SUNDAY 4 ANT.
 
+\vspace{2mm}
+
 \greannotation{4 {\upshape\Abar} VII c}
 \gregorioscore[a]{EnglishVersion/Dominica/DomAnt4-01.gtex}
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalm 112.}
-
-}
+\redTitle{Psalm 112.}
 
 \pend\pstart
 
@@ -930,11 +909,7 @@ As it was in the beginning, is now, and \pipe\ ever shall be, \GreStar\ world wi
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalm 113.}
-
-}
+\redTitle{Psalm 113.}
 
 \pend\pstart
 
@@ -1018,11 +993,13 @@ The following Chapter \emph{\textcolor{black}{Blessed be the God}} is only sung 
 
 % SUNDAY CHAPTER
 
-\subsection*{Chapter.\capitulumSpace \emph{2 Cor. 1, 3--4.}}
+\redTitle{Chapter.\capitulumSpace \emph{2 Cor. 1, 3--4.}}
 
 \label{SundayChapter}
 
 \pend\pstart
+
+\vspace{-5mm}
 
 \gregorioscore[a]{EnglishVersion/CapitulumBenedictus.gtex}
 
@@ -1034,7 +1011,7 @@ The following Chapter \emph{\textcolor{black}{Blessed be the God}} is only sung 
 
 \newpage
 
-\subsection*{Hymn.\\Winter Tone.}
+\redTitle{Hymn.\\Winter Tone.}
 
 \pend\pstart
 
@@ -1063,7 +1040,7 @@ When a Commemoration is made of the Blessed Virgin Mary, a different Doxology is
 }
 
 \begin{response}
-\hspace{1.0 mm}\Rbar\ As \hspace{1.1mm} incense \hspace{1.1mm} in \hspace{1.5mm} thy \hspace{1.2mm} sight.
+\hspace{\sicutIncensumIndent}\Rbar\ As \hspace{1.1mm} incense \hspace{1.1mm} in \hspace{1.5mm} thy \hspace{1.2mm} sight.
 
 \end{response}
 
@@ -1071,7 +1048,7 @@ When a Commemoration is made of the Blessed Virgin Mary, a different Doxology is
 
 % SUNDAY SUMMER HYMN
 
-\subsection*{Summer Tone.}
+\redTitle{Summer Tone.}
 
 \pend\pstart
 
@@ -1097,7 +1074,7 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 
 % SUNDAY HYMN AD LIB 1
 
-\subsection*{\emph{Ad libitum} Tone I.}
+\redTitle{\emph{Ad libitum} Tone I.}
 
 \pend\pstart
 
@@ -1116,7 +1093,7 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 
 % SUNDAY HYMN AD LIB 2
 
-\subsection*{\emph{Ad libitum} Tone II.}
+\redTitle{\emph{Ad libitum} Tone II.}
 
 \pend\pstart
 
@@ -1413,15 +1390,14 @@ Lector incipit :
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Benedictio.}
-
-}
+\redTitle{Benedictio.}
 
 \pend\pstart
 
+{\gresetinitiallines{0}
 \gregorioscore[a]{LatinVersion/Completorium/NoctemQuietam.gtex}
+
+}
 
 \pend\pstart
 
@@ -1518,11 +1494,7 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalmus 4.}
-
-}
+\redTitle{Psalmus 4.}
 
 \pend\pstart
 
@@ -1559,11 +1531,7 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \GreStar\ et in s\'{\a
 
 % COMPLETORIUM PSALMUS 30
 
-{
-\centering
-\textcolor{benred8}{Psalmus 30.}
-
-}
+\redTitle{Psalmus 30.}
 
 \pend\pstart
 
@@ -1592,11 +1560,7 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \GreStar\ et in s\'{\a
 
 % COMPLELTORIUM PSALMUS 90
 
-{
-\centering
-\textcolor{benred8}{Psalmus 90.}
-
-}
+\redTitle{Psalmus 90.}
 
 \pend\pstart
 
@@ -1645,11 +1609,7 @@ Sicut erat in princ\'{i}pio, et nunc, et \textbf{sem}per, \GreStar\ et in s\'{\a
 
 % COMPLETORIUM PSALMUS 133
 
-{
-\centering
-\textcolor{benred8}{Psalmus 133.}
-
-}
+\redTitle{Psalmus 133.}
 
 \pend\pstart
 
@@ -1734,12 +1694,7 @@ Tonus Hymni \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} variatur secund
 
 \pend\pstart
 
-%\subsection*{Tonus in Tempore Quadragesim\ae.}
-{
-\centering
-\textcolor{benred8}{Tonus in Tempore Quadragesim\ae.}
-
-}
+\redTitle{Tonus in Tempore Quadragesim\ae.}
 
 \pend\pstart
 
@@ -1778,13 +1733,9 @@ Tonus ut ad Vesperas ( p. \pageref{DominicaCapitulum} ).
 
 % COMPLINE RESPONSORIUM BREVE
 
-{
-\centering
-\textcolor{benred8}{Responsorium Breve.}
+\redTitle{Responsorium Breve.}
 
-}
-%\subsection*{Responsorium Breve.}
-\subsection*{Per Annum.}
+\redTitle{Per Annum.}
 
 \pend\pstart
 
@@ -1867,11 +1818,7 @@ The lector begins:
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Blessing.}
-
-}
+\redTitle{Blessing.}
 
 \pend\pstart
 
@@ -1971,11 +1918,7 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Psalm 4.}
-
-}
+\redTitle{Psalm 4.}
 
 \pend\pstart
 
@@ -2014,11 +1957,7 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \GreStar\ world wi
 
 % COMPLINE PSALM 30
 
-{
-\centering
-\textcolor{benred8}{Psalm 30.}
-
-}
+\redTitle{Psalm 30.}
 
 \pend\pstart
 
@@ -2049,11 +1988,7 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \GreStar\ world wi
 
 % COMPLINE PSALM 90
 
-{
-\centering
-\textcolor{benred8}{Psalm 90.}
-
-}
+\redTitle{Psalm 90.}
 
 \pend\pstart
 
@@ -2104,11 +2039,7 @@ As it was in the beginning, is now, and ever \pipe\ shall be, \GreStar\ world wi
 
 % COMPLINE PSALM 133
 
-{
-\centering
-\textcolor{benred8}{Psalm 133.}
-
-}
+\redTitle{Psalm 133.}
 
 \pend\pstart
 
@@ -2195,11 +2126,7 @@ The tone for the Hymn \emph{\textcolor{black}{Te lucis ante t\'{e}rminum}} is va
 
 \pend\pstart
 
-{
-\centering
-\textcolor{benred8}{Tone in Lent.}
-
-}
+\redTitle{Tone in Lent.}
 
 \pend\pstart
 
@@ -2238,12 +2165,9 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 
 % COMPLINE RESPONSORIUM BREVE
 
-{
-\centering
-\textcolor{benred8}{Short Responsory.}
+\redTitle{Short Responsory.}
 
-}
-\subsection*{Throughout the Year.}
+\redTitle{Throughout the Year.}
 
 \pend\pstart
 
@@ -2345,12 +2269,7 @@ Sung as at Vespers (p. \pageref{DominicaCapitulum}).
 
 % COMPLETORIUM PRECES
 
-%\subsection*{Preces.}
-{
-\centering
-\textcolor{benred8}{Preces.}
-
-}
+\redTitle{Preces.}
 
 \pend\pstart
 
@@ -2511,12 +2430,7 @@ Deinde dicuntur secreto \textcolor{black}{\emph{Pater no\libertineGlyph{s_t}er}}
 
 % COMPLINE PRAYERS
 
-%\subsection*{Prayers.}
-{
-\centering
-\textcolor{benred8}{Prayers.}
-
-}
+\redTitle{Prayers.}
 
 \pend\pstart
 
