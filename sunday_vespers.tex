@@ -8,12 +8,9 @@
 \usepackage{calc}
 \usepackage{fontspec}
 \usepackage{graphicx} % support the \includegraphics command and options
-% \usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
-% \geometry{a4paper} % or letterpaper (US) or a5paper or....
 \usepackage[allowdeprecated=false]{gregoriotex} % for gregorio score inclusion
 \usepackage{fullpage} % to reduce the margins
 \usepackage{titlesec}
-%\usepackage{bold-extra}
 \usepackage[oldstyle]{libertine}
 \usepackage{lettrine}
 \setlength{\parindent}{-0.25in}
@@ -68,6 +65,10 @@
 \newenvironment{psalmtext}{\leftskip 0.25in}{\vspace{2 mm}}
 \newenvironment{rubric}{\color{benred8} \itshape \leftskip 0in \setlength{\parindent}{0.25in}}{\vspace{2 mm}}
 \newenvironment{response}{\leftskip 0in \setlength{\parindent}{0in}}{\vspace{2 mm}}
+\newenvironment{lettrinePar}
+  {\par\leftskip=0.30in \rightskip=0em}
+  {\par} % since switching to reledpar from eledpar lettrine no longer seems to work properly!
+         % this environment is a compromise
 
 % REDUCES SUBSECTION SPACE
 \def\subspace{\vspace{-13 mm}}
@@ -576,7 +577,7 @@ Sequens Capitulum \emph{\textcolor{black}{Bened\'{i}\libertineGlyph{c_t}us Deus}
 
 % DOMINICA HYMNUS HIEME
 
-\newpage
+\vspace{4mm}
 
 \redTitle{Hymnus.\\Tonus in Hieme.}
 
@@ -675,6 +676,135 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 
 \end{response}
 
+\pend\pstart
+
+% DOMINICA MAGNIFICAT
+
+\vspace{1mm}
+
+\redTitle{Canticum Beat\ae\ Mari\ae\ Virginis.\capitulumSpace \emph{Luc. 1, 46--55.}}
+
+\pend\pstart
+
+\begin{rubric}
+Canitur Antiphona propria.
+
+\end{rubric}
+
+\pend\pstart
+
+\vspace{-2mm}
+
+\begin{psalmtext}
+\lettrine[lhang=0.70]{M}{a}gn\'{i}ficat \grealtcross\ \'{a}nima mea D\'{o}minum :
+%Magn\'{i}ficat \GreStar\ \'{a}nima mea D\'{o}minum :
+
+\hspace*{9.5 mm}Et exsult\'{a}vit sp\'{i}ritus meus \GreStar\ in Deo salut\'{a}ri meo.
+
+Quia resp\'{e}xit humilit\'{a}tem anc\'{i}ll\ae\ su\ae\ : \GreStar\ ecce enim ex hoc be\'{a}tam me dicent omnes generati\'{o}nes.
+
+Quia fecit mihi magna qui potens e\libertineGlyph{s_t} : \GreStar\ et san\libertineGlyph{c_t}um nomen ejus.
+
+Et miseric\'{o}rdia ejus a prog\'{e}nie in prog\'{e}nies \GreStar\ tim\'{e}ntibus eum.
+
+Fecit pot\'{e}ntiam in br\'{a}chio suo : \GreStar\ disp\'{e}rsit sup\'{e}rbos mente cordis sui.
+
+Dep\'{o}suit pot\'{e}ntes de sede, \GreStar\ et exalt\'{a}vit h\'{u}miles.
+
+Esuri\'{e}ntes impl\'{e}vit bonis : \GreStar\ et d\'{i}vites dim\'{i}sit in\'{a}nes.
+
+Susc\'{e}pit Israel p\'{u}erum suum, \GreStar\ record\'{a}tus miseric\'{o}rdi\ae\ su\ae.
+
+Sicut loc\'{u}tus e\libertineGlyph{s_t} ad patres nostros, \GreStar\ Abraham, et s\'{e}mini ejus in s\'{\ae}cula.
+
+Glória Patri, et Fílio, \GreStar\ et Spirítui San\libertineGlyph{c_t}o.
+
+Sicut erat in princípio, et nunc, et semper, \GreStar\ et in sǽcula sæculórum. Amen.
+
+\end{psalmtext}
+
+\pend\pstart
+
+\begin{rubric}
+Deinde repetitur Antiphona.
+
+\end{rubric}
+
+\pend\pstart
+
+\vspace{-5mm}
+
+\redTitle{Oratio.}
+
+\pend\pstart
+
+\vspace{1mm}
+
+{
+\grechangedim{beforeinitialshift}{0.25mm}{scalable}
+\grechangedim{afterinitialshift}{0.25mm}{scalable}
+\greannotation{\upshape\Vbar}
+\gregorioscore[a]{LatinVersion/DomineExaudi-short-01.gtex}
+
+}
+
+\pend\pstart
+
+\begin{rubric}
+Canitur Oratio propria, secundum tonum ut habetur in p.~\pageref{sec:TonusOrationis}, et post eam, si occurrat eo die aliquod Fe\libertineGlyph{s_t}um Simplex, vel ad modum Simplicis recolendum, fit de eo commemoratio. Po\libertineGlyph{s_t}remo (~si id tempus requirit~) fiunt Commemorationes de San\libertineGlyph{c_t}a Maria, de San\libertineGlyph{c_t}o Joseph, de Apo\libertineGlyph{s_t}olis, et de Patrono Ecclesi\ae\ in ordine aliarum Commemorationum secundum illius dignitatem, et ultimo loco de Pace, ut infra in p.~\pageref{sec:Commem}. Post ultimam Orationem canitur :
+
+\end{rubric}
+
+\pend\pstart
+
+{
+\grechangedim{beforeinitialshift}{0.25mm}{scalable}
+\grechangedim{afterinitialshift}{0.25mm}{scalable}
+\greannotation{\upshape\Vbar}
+\gregorioscore[a]{LatinVersion/DomineExaudi-short-01.gtex}
+
+}
+
+\pend\pstart
+
+\vspace{1mm}
+
+\begin{rubric}
+Per annum :
+
+\end{rubric}
+
+\pend\pstart
+
+\vspace{-3mm}
+
+\greannotation{I}
+\gregorioscore[a]{LatinVersion/Dominica/DomBenedicamus.gtex}
+
+\pend\pstart
+
+\begin{rubric}
+Tempore Adventus et Quadragesim\ae\ :
+
+\end{rubric}
+
+\pend\pstart
+
+\greannotation{IV}
+\gregorioscore[a]{LatinVersion/Dominica/DomBenedicamusAdvLent.gtex}
+
+\pend\pstart
+
+\greannotation{\upshape\Vbar}
+\gregorioscore[a]{LatinVersion/FideliumAnimae.gtex}
+
+\pend\pstart
+
+\begin{rubric}
+Si po\libertineGlyph{s_t} Vesperas immediate sequatur Completorium, di\libertineGlyph{c_t}o \Vbar\ \emph{\textcolor{black}{Fid\'{e}lium \'{a}nim\ae}}, \libertineGlyph{s_t}atim incipitur \Vbar\ \emph{\textcolor{black}{Jube D\'{o}mine bened\'{i}cere}}. Secus autem, si tunc terminetur Officium, dicitur \emph{\textcolor{black}{Pater no\libertineGlyph{s_t}er}} totum secreto. %Oratione Dominica secreto recitata, dicitur : %, ut infra ad Completorium.
+
+\end{rubric}
+
 \pend\endnumbering
 \end{Leftside}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -682,8 +812,6 @@ Sequens tonus canitur in Dominica IV et reliquis Dominicis po\libertineGlyph{s_t
 \begin{Rightside}
 
 \firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
-
-
 
 % SUNDAY AT VESPERS
 
@@ -1009,7 +1137,7 @@ The following Chapter \emph{\textcolor{black}{Blessed be the God}} is only sung 
 
 % SUNDAY WINTER HYMN
 
-\newpage
+\vspace{4mm}
 
 \redTitle{Hymn.\\Winter Tone.}
 
@@ -1108,144 +1236,13 @@ The following tone is sung from the Fourth Sunday after Pentecost until the Sund
 
 \end{response}
 
-\pend\endnumbering
-\end{Rightside}
-\end{pages}
-\Pages
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{pages}
-\begin{Leftside}
-\firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
-
-% DOMINICA MAGNIFICAT
-
-\subsection*{Canticum Beat\ae\ Mari\ae\ Virginis.\capitulumSpace \emph{Luc. 1, 46--55.}}
-
 \pend\pstart
-
-\begin{rubric}
-Canitur Antiphona propria.
-
-\end{rubric}
-
-\pend\pstart
-
-\begin{psalmtext}
-\lettrine[lhang=0.70]{M}{a}gn\'{i}ficat \grealtcross\ \'{a}nima mea D\'{o}minum :
-%Magn\'{i}ficat \GreStar\ \'{a}nima mea D\'{o}minum :
-
-\hspace*{9.5 mm}Et exsult\'{a}vit sp\'{i}ritus meus \GreStar\ in Deo salut\'{a}ri meo.
-
-Quia resp\'{e}xit humilit\'{a}tem anc\'{i}ll\ae\ su\ae\ : \GreStar\ ecce enim ex hoc be\'{a}tam me dicent omnes generati\'{o}nes.
-
-Quia fecit mihi magna qui potens e\libertineGlyph{s_t} : \GreStar\ et san\libertineGlyph{c_t}um nomen ejus.
-
-Et miseric\'{o}rdia ejus a prog\'{e}nie in prog\'{e}nies \GreStar\ tim\'{e}ntibus eum.
-
-Fecit pot\'{e}ntiam in br\'{a}chio suo : \GreStar\ disp\'{e}rsit sup\'{e}rbos mente cordis sui.
-
-Dep\'{o}suit pot\'{e}ntes de sede, \GreStar\ et exalt\'{a}vit h\'{u}miles.
-
-Esuri\'{e}ntes impl\'{e}vit bonis : \GreStar\ et d\'{i}vites dim\'{i}sit in\'{a}nes.
-
-Susc\'{e}pit Israel p\'{u}erum suum, \GreStar\ record\'{a}tus miseric\'{o}rdi\ae\ su\ae.
-
-Sicut loc\'{u}tus e\libertineGlyph{s_t} ad patres nostros, \GreStar\ Abraham, et s\'{e}mini ejus in s\'{\ae}cula.
-
-Glória Patri, et Fílio, \GreStar\ et Spirítui San\libertineGlyph{c_t}o.
-
-Sicut erat in princípio, et nunc, et semper, \GreStar\ et in sǽcula sæculórum. Amen.
-
-\end{psalmtext}
-
-\pend\pstart
-
-\begin{rubric}
-Deinde repetitur Antiphona.
-
-\end{rubric}
-
-\pend\pstart
-
-\subsection*{Oratio.}
-
-\pend\pstart
-
-{
-\grechangedim{beforeinitialshift}{0.25mm}{scalable}
-\grechangedim{afterinitialshift}{0.25mm}{scalable}
-\greannotation{\upshape\Vbar}
-\gregorioscore[a]{LatinVersion/DomineExaudi-short-01.gtex}
-
-}
-
-\pend\pstart
-
-\begin{rubric}
-Canitur Oratio propria, secundum tonum ut habetur in p.~\pageref{sec:TonusOrationis}, et post eam, si occurrat eo die aliquod Fe\libertineGlyph{s_t}um Simplex, vel ad modum Simplicis recolendum, fit de eo commemoratio. Po\libertineGlyph{s_t}remo (~si id tempus requirit~) fiunt Commemorationes de San\libertineGlyph{c_t}a Maria, de San\libertineGlyph{c_t}o Joseph, de Apo\libertineGlyph{s_t}olis, et de Patrono Ecclesi\ae\ in ordine aliarum Commemorationum secundum illius dignitatem, et ultimo loco de Pace, ut infra in p.~\pageref{sec:Commem}. Post ultimam Orationem canitur :
-
-\end{rubric}
-
-\pend\pstart
-
-{
-\grechangedim{beforeinitialshift}{0.25mm}{scalable}
-\grechangedim{afterinitialshift}{0.25mm}{scalable}
-\greannotation{\upshape\Vbar}
-\gregorioscore[a]{LatinVersion/DomineExaudi-short-01.gtex}
-
-}
-
-\pend\pstart
-
-\begin{rubric}
-Per annum :
-
-\end{rubric}
-
-\pend\pstart
-
-\greannotation{I}
-\gregorioscore[a]{LatinVersion/Dominica/DomBenedicamus.gtex}
-
-\pend\pstart
-
-\begin{rubric}
-Tempore Adventus et Quadragesim\ae\ :
-
-\end{rubric}
-
-\pend\pstart
-
-\greannotation{IV}
-\gregorioscore[a]{LatinVersion/Dominica/DomBenedicamusAdvLent.gtex}
-
-\pend\pstart
-
-\greannotation{\upshape\Vbar}
-\gregorioscore[a]{LatinVersion/FideliumAnimae.gtex}
-
-\pend\pstart
-
-\begin{rubric}
-Si po\libertineGlyph{s_t} Vesperas immediate sequatur Completorium, di\libertineGlyph{c_t}o \Vbar\ \emph{\textcolor{black}{Fid\'{e}lium \'{a}nim\ae}}, \libertineGlyph{s_t}atim incipitur \Vbar\ \emph{\textcolor{black}{Jube D\'{o}mine bened\'{i}cere}}. Secus autem, si tunc terminetur Officium, dicitur \emph{\textcolor{black}{Pater no\libertineGlyph{s_t}er}} totum secreto. %Oratione Dominica secreto recitata, dicitur : %, ut infra ad Completorium.
-
-\end{rubric}
-
-\pend\endnumbering
-\end{Leftside}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{Rightside}
-
-\firstlinenum{10000}\linenumincrement{10000}\beginnumbering\pstart
 
 % SUNDAY MAGNIFICAT
 
-\subsection*{Canticle of the Blessed Virgin Mary.\capitulumSpace \emph{Luke 1, 46--55.}}
+\vspace{1mm}
+
+\redTitle{Canticle of the Blessed Virgin Mary.\capitulumSpace \emph{Luke 1, 46--55.}}
 
 \pend\pstart
 
@@ -1255,6 +1252,8 @@ The antiphon for the Sunday is sung.
 \end{rubric}
 
 \pend\pstart
+
+\vspace{-2mm}
 
 \begin{psalmtext}
 \lettrine[lhang=0.70]{M}{y} soul \grealtcross\ doth magnify the Lord.
@@ -1286,15 +1285,19 @@ As it was in the beginning, is now, and ever shall be, \GreStar\ world without e
 \pend\pstart
 
 \begin{rubric}
-The Antiphhon is now repeated.
+The Antiphon is now repeated.
 
 \end{rubric}
 
 \pend\pstart
 
-\subsection*{Oration.}
+\vspace{-5mm}
+
+\redTitle{Oration.}
 
 \pend\pstart
+
+\vspace{1mm}
 
 {
 \grechangedim{beforeinitialshift}{0.25mm}{scalable}
@@ -1329,6 +1332,8 @@ Throughout the year:
 \end{rubric}
 
 \pend\pstart
+
+\vspace{-2mm}
 
 \greannotation{I}
 \gregorioscore[a]{EnglishVersion/Dominica/DomBenedicamus.gtex}
@@ -1379,12 +1384,16 @@ If Compline follows Vespers, \emph{\textcolor{black}{Grant, Lord, a blessing}} i
 
 \pend\pstart
 
+\vspace{-4mm}
+
 \begin{rubric}
 Lector incipit :
 
 \end{rubric}
 
 \pend\pstart
+
+\vspace{-2mm}
 
 \gregorioscore[a]{LatinVersion/JubeDomine.gtex}
 
@@ -1394,6 +1403,8 @@ Lector incipit :
 
 \pend\pstart
 
+\vspace{1mm}
+
 {\gresetinitiallines{0}
 \gregorioscore[a]{LatinVersion/Completorium/NoctemQuietam.gtex}
 
@@ -1401,22 +1412,29 @@ Lector incipit :
 
 \pend\pstart
 
-\subsection*{Capitulum.\capitulumSpace \emph{1 Petri 5, 8--9.}}
+\vspace{2mm}
+
+\redTitle{Capitulum.\capitulumSpace \emph{1 Petri 5, 8--9.}}
 
 \pend\pstart
+
+\vspace{2mm}
 
 \greannotation{}
 \gregorioscore[a]{LatinVersion/CapitulumFratres.gtex}
 
 \pend\pstart
 
+\vspace{2mm}
+
 {\gresetinitiallines{0}
 \gregorioscore[a]{LatinVersion/AdjutoriumNostrum.gtex}
 
 }
 
-
 \pend\pstart
+
+\vspace{2mm}
 
 {\gresetinitiallines{0}
 \gregorioscore[a]{LatinVersion/QuiFecitCaelum.gtex}
@@ -1425,6 +1443,8 @@ Lector incipit :
 
 \pend\pstart
 
+\vspace{2mm}
+
 \begin{rubric}
 \emph{\textcolor{black}{Pater no\libertineGlyph{s_t}er}} dicitur totum secreto. Deinde fit Confessio :
 
@@ -1432,21 +1452,23 @@ Lector incipit :
 
 \pend\pstart
 
-\begin{response}\lettrine{C}{o}nf\'{i}teor Deo omnipot\'{e}nti, be\'{a}t\ae\ Mar\'{i}\ae\ semper V\'{i}rgini, be\'{a}to Micha\'{e}li Arch\'{a}ngelo, be\'{a}to Jo\'{a}nni Bapt\'{i}\libertineGlyph{s_t}\ae , san\libertineGlyph{c_t}is Ap\'{o}\libertineGlyph{s_t}olis Petro et Paulo, et \'{o}mnibus San\libertineGlyph{c_t}is, quia pecc\'{a}vi nimis, cogitati\'{o}ne, verbo et \'{o}pere : \emph{\textcolor{benred8}{percutiendo sibi pectus}} mea culpa, mea culpa, mea m\'{a}xima culpa. Ideo precor be\'{a}tam Mar\'{i}am semper V\'{i}rginem, be\'{a}tum Micha\'{e}lem Arch\'{a}ngelum, be\'{a}tum Jo\'{a}nnem Bapt\'{i}\libertineGlyph{s_t}am, san\libertineGlyph{c_t}os Ap\'{o}\libertineGlyph{s_t}olos Petrum et Paulum, et omnes San\libertineGlyph{c_t}os, or\'{a}re pro me ad D\'{o}minum Deum no\libertineGlyph{s_t}rum.
+\begin{lettrinePar}
+\lettrine{C}{o}nf\'{i}teor Deo omnipot\'{e}nti, be\'{a}t\ae\ Mar\'{i}\ae\ semper V\'{i}rgini, be\'{a}to Micha\'{e}li Arch\'{a}ngelo, be\'{a}to Jo\'{a}nni Bapt\'{i}\libertineGlyph{s_t}\ae , san\libertineGlyph{c_t}is Ap\'{o}\libertineGlyph{s_t}olis Petro et Paulo, et \'{o}mnibus San\libertineGlyph{c_t}is, quia pecc\'{a}vi nimis, cogitati\'{o}ne, verbo et \'{o}pere : \emph{\textcolor{benred8}{percutiendo sibi pectus}} mea culpa, mea culpa, mea m\'{a}xima culpa. Ideo precor be\'{a}tam Mar\'{i}am semper V\'{i}rginem, be\'{a}tum Micha\'{e}lem Arch\'{a}ngelum, be\'{a}tum Jo\'{a}nnem Bapt\'{i}\libertineGlyph{s_t}am, san\libertineGlyph{c_t}os Ap\'{o}\libertineGlyph{s_t}olos Petrum et Paulum, et omnes San\libertineGlyph{c_t}os, or\'{a}re pro me ad D\'{o}minum Deum no\libertineGlyph{s_t}rum.
 
-\end{response}
-
-\pend\pstart
-
-\begin{response}\lettrine{M}{i}sere\'{a}tur no\libertineGlyph{s_t}ri omn\'{i}potens Deus, et dim\'{i}ssis pecc\'{a}tis no\libertineGlyph{s_t}ris, perd\'{u}cat nos ad vitam \ae t\'{e}rnam. \Rbar\ Amen.
-
-\end{response}
+\end{lettrinePar}
 
 \pend\pstart
 
-\begin{response}\lettrine{I}{n}dulg\'{e}ntiam, \grealtcross\ absoluti\'{o}nem, et remissi\'{o}nem peccat\'{o}rum no\libertineGlyph{s_t}r\'{o}rum tr\'{i}buat nobis omn\'{i}potens et mis\'{e}ricors D\'{o}minus. \Rbar\ Amen.
+\begin{lettrinePar}
+\lettrine{M}{i}sere\'{a}tur no\libertineGlyph{s_t}ri omn\'{i}potens Deus, et dim\'{i}ssis pecc\'{a}tis no\libertineGlyph{s_t}ris, perd\'{u}cat nos ad vitam \ae t\'{e}rnam. \Rbar\ Amen.
 
-\end{response}
+\end{lettrinePar}
+
+\pend\pstart
+
+\begin{lettrinePar}\lettrine{I}{n}dulg\'{e}ntiam, \grealtcross\ absoluti\'{o}nem, et remissi\'{o}nem peccat\'{o}rum no\libertineGlyph{s_t}r\'{o}rum tr\'{i}buat nobis omn\'{i}potens et mis\'{e}ricors D\'{o}minus. \Rbar\ Amen.
+
+\end{lettrinePar}
 
 \pend\pstart
 
@@ -1465,7 +1487,7 @@ Deinde, clara voce, pollice signando sibi pe\libertineGlyph{c_t}us signo crucis,
 \pend\pstart
 
 \begin{response}
-\hspace{1.0 mm}\Rbar\hspace{0.3mm} Et \hspace{7.5mm} av\'{e}rte \hspace{6.7mm} iram \hspace{6.5mm} tuam \hspace{0.3mm} a \hspace{1.0mm} nobis.
+\hspace{\sicutIncensumIndent}\Rbar\hspace{0.3mm} Et \hspace{7.5mm} av\'{e}rte \hspace{6.7mm} iram \hspace{5.5mm} tuam \hspace{0.3mm} a \hspace{1.0mm} nobis.
 
 \end{response}
 
@@ -1486,6 +1508,8 @@ A Septuagesima usque ad Pascha, loco \emph{\textcolor{black}{Allelúia}}, canitu
 \gregorioscore[a]{LatinVersion/LausTibi.gtex}
 
 \pend\pstart
+
+\vspace{5mm}
 
 % COMPLETORIUM PSALMUS 4
 
@@ -1807,12 +1831,16 @@ Tonus ut ad Vesperas ( p. \pageref{DominicaCapitulum} ).
 
 \pend\pstart
 
+\vspace{-4mm}
+
 \begin{rubric}
 The lector begins:
 
 \end{rubric}
 
 \pend\pstart
+
+\vspace{-2mm}
 
 \gregorioscore[a]{EnglishVersion/JubeDomine.gtex}
 
@@ -1822,18 +1850,26 @@ The lector begins:
 
 \pend\pstart
 
+\vspace{1mm}
+
 \gregorioscore[a]{EnglishVersion/Completorium/NoctemQuietam.gtex}
 
 \pend\pstart
 
-\subsection*{Chapter.\capitulumSpace \emph{1 Peter 5, 8--9.}}
+\vspace{2mm}
+
+\redTitle{Chapter.\capitulumSpace \emph{1 Peter 5, 8--9.}}
 
 \pend\pstart
+
+\vspace{2mm}
 
 \greannotation{}
 \gregorioscore[a]{EnglishVersion/CapitulumFratres.gtex}
 
 \pend\pstart
+
+\vspace{2mm}
 
 {\gresetinitiallines{0}
 \gregorioscore[a]{EnglishVersion/AdjutoriumNostrum.gtex}
@@ -1842,12 +1878,16 @@ The lector begins:
 
 \pend\pstart
 
+\vspace{2mm}
+
 {\gresetinitiallines{0}
 \gregorioscore[a]{EnglishVersion/QuiFecitCaelum.gtex}
 
 }
 
 \pend\pstart
+
+\vspace{2mm}
 
 \begin{rubric}
 An \emph{\textcolor{black}{Our Father}} is said, entirely secret. Then the Confession is made:
@@ -1856,21 +1896,21 @@ An \emph{\textcolor{black}{Our Father}} is said, entirely secret. Then the Confe
 
 \pend\pstart
 
-\begin{response}\lettrine{I}{ c}onfess to almighty God, to blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy apostles Peter and Paul, and to all the saints, that I have sinned exceedingly in thought, word and deed, \emph{\textcolor{benred8}{striking the breast}} through my fault, through my fualt, through my most grievous fault. Therefore I beseech blessed Mary ever Virgin, blessed Michael the Archangel, blessed John the Baptist, the holy apostles Peter and Paul, and all the saints, to pray for me to the Lord our God.
+\begin{lettrinePar}\lettrine{I}{ c}onfess to almighty God, to blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy apostles Peter and Paul, and to all the saints, that I have sinned exceedingly in thought, word and deed, \emph{\textcolor{benred8}{striking the breast}} through my fault, through my fualt, through my most grievous fault. Therefore I beseech blessed Mary ever Virgin, blessed Michael the Archangel, blessed John the Baptist, the holy apostles Peter and Paul, and all the saints, to pray for me to the Lord our God.
 
-\end{response}
-
-\pend\pstart
-
-\begin{response}\lettrine{M}{a}y almighty God have mercy upon us, forgive us our sins, and bring us to life everlasting. \Rbar\ Amen.
-
-\end{response}
+\end{lettrinePar}
 
 \pend\pstart
 
-\begin{response}\lettrine{M}{a}y the almighty \grealtcross\ and merciful Lord grant us pardon, absolution, and remission of all our sins. \Rbar\ Amen.
+\begin{lettrinePar}\lettrine{M}{a}y almighty God have mercy upon us, forgive us our sins, and bring us to life everlasting. \Rbar\ Amen.
 
-\end{response}
+\end{lettrinePar}
+
+\pend\pstart
+
+\begin{lettrinePar}\lettrine{M}{a}y the almighty \grealtcross\ and merciful Lord grant us pardon, absolution, and remission of all our sins. \Rbar\ Amen.
+
+\end{lettrinePar}
 
 \pend\pstart
 
@@ -1889,7 +1929,7 @@ Then, making the sign of the cross on one's breast with the thumb, the following
 \pend\pstart
 
 \begin{response}
-\hspace{1.0 mm}\Rbar\hspace{0.3mm} And turn away \hspace{7.0mm}thine \hspace{2.0mm}ang- \hspace{1.75mm}er \hspace{4.25mm} from us.
+\hspace{\sicutIncensumIndent}\Rbar\hspace{0.3mm} And turn away \hspace{1.0mm}thine \hspace{0.5mm}anger \hspace{2.25mm} from us.
 
 \end{response}
 
@@ -1910,6 +1950,8 @@ The following is sung from Septuagesima Sunday until Easter in place of \emph{\t
 \gregorioscore[a]{EnglishVersion/LausTibi.gtex}
 
 \pend\pstart
+
+\vspace{5mm}
 
 % COMPLINE PSALM 4
 
